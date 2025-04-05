@@ -1,0 +1,306 @@
+[2025-03-03 18:51:27.773]: Info: Sunshine version: v2025.122.141614
+[2025-03-03 18:51:27.773]: Info: Package Publisher: LizardByte
+[2025-03-03 18:51:27.773]: Info: Publisher Website: https://app.lizardbyte.dev
+[2025-03-03 18:51:27.773]: Info: Get support: https://app.lizardbyte.dev/support
+[2025-03-03 18:51:27.774]: Error: Couldn't load cuda: -1
+[2025-03-03 18:51:27.774]: Info: Found display [wayland-1]
+[2025-03-03 18:51:27.774]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-03-03 18:51:27.774]: Info: Found interface: wl_output(51) version 4
+[2025-03-03 18:51:27.774]: Info: Found interface: wl_output(52) version 4
+[2025-03-03 18:51:27.774]: Warning: Missing Wayland wire for wlr-export-dmabuf
+[2025-03-03 18:51:27.775]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:27.775]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:27.775]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:27.775]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:27.775]: Info: Found display [wayland-1]
+[2025-03-03 18:51:27.775]: Info: Found display [wayland-1]
+[2025-03-03 18:51:27.775]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-03-03 18:51:27.775]: Info: Found interface: wl_output(51) version 4
+[2025-03-03 18:51:27.775]: Info: Found interface: wl_output(52) version 4
+[2025-03-03 18:51:27.775]: Info: Resolution: 3024x1890
+[2025-03-03 18:51:27.775]: Info: Resolution: 5120x1440
+[2025-03-03 18:51:27.775]: Info: Name: eDP-1
+[2025-03-03 18:51:27.775]: Info: Found monitor:    (eDP-1)
+[2025-03-03 18:51:27.775]: Info: Offset: 6560x0
+[2025-03-03 18:51:27.775]: Info: Logical size: 1728x1080
+[2025-03-03 18:51:27.775]: Info: Name: HDMI-A-1
+[2025-03-03 18:51:27.775]: Info: Found monitor: Samsung Electric Company LC49G95T H1AK500000 (HDMI-A-1)
+[2025-03-03 18:51:27.775]: Info: Offset: 1440x0
+[2025-03-03 18:51:27.775]: Info: Logical size: 5120x1440
+[2025-03-03 18:51:27.775]: Info: -------- Start of KMS monitor list --------
+[2025-03-03 18:51:27.775]: Info: Monitor 0 is eDP-1:    (eDP-1)
+[2025-03-03 18:51:27.775]: Info: Monitor 1 is HDMI-A-1: Samsung Electric Company LC49G95T H1AK500000 (HDMI-A-1)
+[2025-03-03 18:51:27.775]: Info: --------- End of KMS monitor list ---------
+[2025-03-03 18:51:27.800]: Info: System tray created
+[2025-03-03 18:51:27.804]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-03-03 18:51:27.804]: Info: Trying encoder [nvenc]
+[2025-03-03 18:51:27.804]: Info: Screencasting with KMS
+[2025-03-03 18:51:27.804]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:27.804]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:27.804]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:27.804]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:27.804]: Error: Couldn't find monitor [0]
+[2025-03-03 18:51:27.804]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:27.804]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:27.804]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:27.804]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:27.804]: Error: Couldn't find monitor [0]
+[2025-03-03 18:51:28.004]: Info: Screencasting with KMS
+[2025-03-03 18:51:28.004]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:28.004]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:28.004]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:28.004]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:28.004]: Error: Couldn't find monitor [0]
+[2025-03-03 18:51:28.004]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:28.004]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:28.004]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:28.004]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:28.004]: Error: Couldn't find monitor [0]
+[2025-03-03 18:51:28.204]: Info: Encoder [nvenc] failed
+[2025-03-03 18:51:28.204]: Info: Trying encoder [vaapi]
+[2025-03-03 18:51:28.204]: Info: Screencasting with KMS
+[2025-03-03 18:51:28.204]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:28.204]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:28.204]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:28.204]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:28.204]: Info: Found monitor for DRM screencasting
+[2025-03-03 18:51:28.204]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 18:51:28.204]: Info: Found connector ID [40]
+[2025-03-03 18:51:28.204]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 18:51:28.206]: Error: Couldn't initialize va display: operation failed
+[2025-03-03 18:51:28.206]: Warning: Monitor  doesn't support hardware encoding. Reverting back to GPU -> RAM -> GPU
+[2025-03-03 18:51:28.206]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:28.206]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:28.206]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:28.206]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:28.206]: Info: Found monitor for DRM screencasting
+[2025-03-03 18:51:28.206]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 18:51:28.206]: Info: Found connector ID [40]
+[2025-03-03 18:51:28.206]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 18:51:28.220]: Info: Creating encoder [h264_vaapi]
+[2025-03-03 18:51:28.220]: Info: Color coding: SDR (Rec. 601)
+[2025-03-03 18:51:28.220]: Info: Color depth: 8-bit
+[2025-03-03 18:51:28.220]: Info: Color range: JPEG
+[2025-03-03 18:51:28.227]: Error: Couldn't initialize va display: unknown libva error
+[2025-03-03 18:51:28.228]: Info: Creating encoder [h264_vaapi]
+[2025-03-03 18:51:28.228]: Info: Color coding: SDR (Rec. 601)
+[2025-03-03 18:51:28.228]: Info: Color depth: 8-bit
+[2025-03-03 18:51:28.228]: Info: Color range: JPEG
+[2025-03-03 18:51:28.236]: Error: Couldn't initialize va display: unknown libva error
+[2025-03-03 18:51:28.237]: Info: Encoder [vaapi] failed
+[2025-03-03 18:51:28.238]: Info: Trying encoder [software]
+[2025-03-03 18:51:28.238]: Info: Screencasting with KMS
+[2025-03-03 18:51:28.238]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:28.238]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:28.238]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:28.238]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:28.238]: Info: Found monitor for DRM screencasting
+[2025-03-03 18:51:28.238]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 18:51:28.238]: Info: Found connector ID [40]
+[2025-03-03 18:51:28.238]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 18:51:28.252]: Info: Creating encoder [libx264]
+[2025-03-03 18:51:28.252]: Info: Color coding: SDR (Rec. 601)
+[2025-03-03 18:51:28.252]: Info: Color depth: 8-bit
+[2025-03-03 18:51:28.252]: Info: Color range: JPEG
+[2025-03-03 18:51:28.253]: Info: [libx264 @ 0x172e2dd0] using cpu capabilities: ARMv8 NEON
+[2025-03-03 18:51:28.253]: Info: [libx264 @ 0x172e2dd0] profile High, level 4.2, 4:2:0, 8-bit
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] frame I:1     Avg QP:31.00  size:  1203
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] 8x8 transform intra:0.0%
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] i8c dc,h,v,p: 100%  0%  0%  0%
+[2025-03-03 18:51:28.318]: Info: [libx264 @ 0x172e2dd0] kb/s:577.44
+[2025-03-03 18:51:28.318]: Info: Creating encoder [libx264]
+[2025-03-03 18:51:28.318]: Info: Color coding: SDR (Rec. 601)
+[2025-03-03 18:51:28.318]: Info: Color depth: 8-bit
+[2025-03-03 18:51:28.318]: Info: Color range: JPEG
+[2025-03-03 18:51:28.319]: Info: [libx264 @ 0x172e2dd0] using cpu capabilities: ARMv8 NEON
+[2025-03-03 18:51:28.320]: Info: [libx264 @ 0x172e2dd0] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2025-03-03 18:51:28.394]: Info: [libx264 @ 0x172e2dd0] frame I:1     Avg QP:31.00  size:  1312
+[2025-03-03 18:51:28.394]: Info: [libx264 @ 0x172e2dd0] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-03-03 18:51:28.394]: Info: [libx264 @ 0x172e2dd0] 8x8 transform intra:0.0%
+[2025-03-03 18:51:28.394]: Info: [libx264 @ 0x172e2dd0] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2025-03-03 18:51:28.394]: Info: [libx264 @ 0x172e2dd0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-03-03 18:51:28.394]: Info: [libx264 @ 0x172e2dd0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2025-03-03 18:51:28.394]: Info: [libx264 @ 0x172e2dd0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-03-03 18:51:28.394]: Info: [libx264 @ 0x172e2dd0] kb/s:629.76
+[2025-03-03 18:51:28.397]: Info: Screencasting with KMS
+[2025-03-03 18:51:28.397]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 18:51:28.397]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 18:51:28.397]: Info: /dev/dri/card2 -> apple
+[2025-03-03 18:51:28.397]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 18:51:28.397]: Info: Found monitor for DRM screencasting
+[2025-03-03 18:51:28.398]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 18:51:28.398]: Info: Found connector ID [40]
+[2025-03-03 18:51:28.398]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 18:51:28.423]: Info: 
+[2025-03-03 18:51:28.423]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-03-03 18:51:28.423]: Info: 
+[2025-03-03 18:51:28.423]: Info: Found H.264 encoder: libx264 [software]
+[2025-03-03 18:51:28.427]: Info: Adding avahi service fedora
+[2025-03-03 18:51:28.427]: Info: Configuration UI available at [https://localhost:47990]
+[2025-03-03 18:51:29.237]: Info: Avahi service fedora successfully established.
+[2025-03-03 19:00:22.658]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-03-03 19:00:22.659]: Info: Trying encoder [nvenc]
+[2025-03-03 19:00:22.659]: Info: Screencasting with KMS
+[2025-03-03 19:00:22.659]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:22.659]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:22.659]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:22.659]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:22.659]: Error: Couldn't find monitor [0]
+[2025-03-03 19:00:22.659]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:22.659]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:22.659]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:22.659]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:22.659]: Error: Couldn't find monitor [0]
+[2025-03-03 19:00:22.859]: Info: Screencasting with KMS
+[2025-03-03 19:00:22.859]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:22.860]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:22.860]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:22.860]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:22.860]: Error: Couldn't find monitor [0]
+[2025-03-03 19:00:22.860]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:22.860]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:22.860]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:22.860]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:22.860]: Error: Couldn't find monitor [0]
+[2025-03-03 19:00:23.060]: Info: Encoder [nvenc] failed
+[2025-03-03 19:00:23.060]: Info: Trying encoder [vaapi]
+[2025-03-03 19:00:23.060]: Info: Screencasting with KMS
+[2025-03-03 19:00:23.060]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:23.060]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:23.060]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:23.060]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:23.060]: Info: Found monitor for DRM screencasting
+[2025-03-03 19:00:23.060]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 19:00:23.060]: Info: Found connector ID [40]
+[2025-03-03 19:00:23.061]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 19:00:23.063]: Error: Couldn't initialize va display: operation failed
+[2025-03-03 19:00:23.063]: Warning: Monitor  doesn't support hardware encoding. Reverting back to GPU -> RAM -> GPU
+[2025-03-03 19:00:23.063]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:23.063]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:23.063]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:23.063]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:23.063]: Info: Found monitor for DRM screencasting
+[2025-03-03 19:00:23.063]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 19:00:23.063]: Info: Found connector ID [40]
+[2025-03-03 19:00:23.063]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 19:00:23.091]: Info: Creating encoder [h264_vaapi]
+[2025-03-03 19:00:23.091]: Info: Color coding: SDR (Rec. 601)
+[2025-03-03 19:00:23.091]: Info: Color depth: 8-bit
+[2025-03-03 19:00:23.091]: Info: Color range: JPEG
+[2025-03-03 19:00:23.108]: Error: Couldn't initialize va display: unknown libva error
+[2025-03-03 19:00:23.109]: Info: Encoder [vaapi] failed
+[2025-03-03 19:00:23.109]: Info: Trying encoder [software]
+[2025-03-03 19:00:23.109]: Info: Screencasting with KMS
+[2025-03-03 19:00:23.109]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:23.109]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:23.109]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:23.110]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:23.110]: Info: Found monitor for DRM screencasting
+[2025-03-03 19:00:23.110]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 19:00:23.110]: Info: Found connector ID [40]
+[2025-03-03 19:00:23.110]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 19:00:23.130]: Info: Creating encoder [libx264]
+[2025-03-03 19:00:23.130]: Info: Color coding: SDR (Rec. 601)
+[2025-03-03 19:00:23.130]: Info: Color depth: 8-bit
+[2025-03-03 19:00:23.130]: Info: Color range: JPEG
+[2025-03-03 19:00:23.131]: Info: [libx264 @ 0xffff5804a650] using cpu capabilities: ARMv8 NEON
+[2025-03-03 19:00:23.132]: Info: [libx264 @ 0xffff5804a650] profile High, level 4.2, 4:2:0, 8-bit
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] frame I:1     Avg QP:31.00  size:  1203
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] 8x8 transform intra:0.0%
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] i8c dc,h,v,p: 100%  0%  0%  0%
+[2025-03-03 19:00:23.204]: Info: [libx264 @ 0xffff5804a650] kb/s:577.44
+[2025-03-03 19:00:23.204]: Info: Creating encoder [libx264]
+[2025-03-03 19:00:23.204]: Info: Color coding: SDR (Rec. 601)
+[2025-03-03 19:00:23.204]: Info: Color depth: 8-bit
+[2025-03-03 19:00:23.204]: Info: Color range: JPEG
+[2025-03-03 19:00:23.205]: Info: [libx264 @ 0xffff5804a650] using cpu capabilities: ARMv8 NEON
+[2025-03-03 19:00:23.206]: Info: [libx264 @ 0xffff5804a650] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2025-03-03 19:00:23.285]: Info: [libx264 @ 0xffff5804a650] frame I:1     Avg QP:30.31  size:  1403
+[2025-03-03 19:00:23.285]: Info: [libx264 @ 0xffff5804a650] mb I  I16..4: 99.9%  0.1%  0.0%
+[2025-03-03 19:00:23.285]: Info: [libx264 @ 0xffff5804a650] 8x8 transform intra:0.1%
+[2025-03-03 19:00:23.285]: Info: [libx264 @ 0xffff5804a650] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2025-03-03 19:00:23.285]: Info: [libx264 @ 0xffff5804a650] i16 v,h,dc,p: 92%  5%  3%  0%
+[2025-03-03 19:00:23.285]: Info: [libx264 @ 0xffff5804a650] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0% 25% 53% 14%  0%  0%  3%  0%  6%
+[2025-03-03 19:00:23.285]: Info: [libx264 @ 0xffff5804a650] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27%  6% 67%  0%  0%  0%  0%  0%  0%
+[2025-03-03 19:00:23.285]: Info: [libx264 @ 0xffff5804a650] kb/s:673.44
+[2025-03-03 19:00:23.286]: Info: Screencasting with KMS
+[2025-03-03 19:00:23.286]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:23.287]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:23.287]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:23.287]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:23.287]: Info: Found monitor for DRM screencasting
+[2025-03-03 19:00:23.287]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 19:00:23.287]: Info: Found connector ID [40]
+[2025-03-03 19:00:23.287]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 19:00:23.315]: Info: 
+[2025-03-03 19:00:23.315]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-03-03 19:00:23.315]: Info: 
+[2025-03-03 19:00:23.315]: Info: Found H.264 encoder: libx264 [software]
+[2025-03-03 19:00:23.315]: Info: Executing Do Cmd: [hyprctl keyword monitor eDP-1,preferred,auto,1.5]
+[2025-03-03 19:00:23.323]: Info: Executing [Desktop]
+[2025-03-03 19:00:23.460]: Info: New streaming session started [active sessions: 1]
+[2025-03-03 19:00:23.506]: Info: CLIENT CONNECTED
+[2025-03-03 19:00:23.508]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:23.508]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:23.508]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:23.508]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:23.509]: Info: Found display [wayland-1]
+[2025-03-03 19:00:23.509]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-03-03 19:00:23.509]: Info: Found interface: wl_output(51) version 4
+[2025-03-03 19:00:23.509]: Info: Found interface: wl_output(52) version 4
+[2025-03-03 19:00:23.509]: Info: Resolution: 3024x1890
+[2025-03-03 19:00:23.509]: Info: Resolution: 5120x1440
+[2025-03-03 19:00:23.509]: Info: Name: eDP-1
+[2025-03-03 19:00:23.509]: Info: Found monitor:    (eDP-1)
+[2025-03-03 19:00:23.509]: Info: Offset: 6560x0
+[2025-03-03 19:00:23.509]: Info: Logical size: 2016x1260
+[2025-03-03 19:00:23.509]: Info: Name: HDMI-A-1
+[2025-03-03 19:00:23.509]: Info: Found monitor: Samsung Electric Company LC49G95T H1AK500000 (HDMI-A-1)
+[2025-03-03 19:00:23.509]: Info: Offset: 1440x0
+[2025-03-03 19:00:23.509]: Info: Logical size: 5120x1440
+[2025-03-03 19:00:23.509]: Info: -------- Start of KMS monitor list --------
+[2025-03-03 19:00:23.509]: Info: Monitor 0 is eDP-1:    (eDP-1)
+[2025-03-03 19:00:23.509]: Info: Monitor 1 is HDMI-A-1: Samsung Electric Company LC49G95T H1AK500000 (HDMI-A-1)
+[2025-03-03 19:00:23.509]: Info: --------- End of KMS monitor list ---------
+[2025-03-03 19:00:23.509]: Info: Screencasting with KMS
+[2025-03-03 19:00:23.509]: Info: /dev/dri/card1 -> asahi
+[2025-03-03 19:00:23.509]: Error: GPU driver doesn't support universal planes: /dev/dri/card1
+[2025-03-03 19:00:23.509]: Info: /dev/dri/card2 -> apple
+[2025-03-03 19:00:23.509]: Warning: No render device name for: /dev/dri/card2
+[2025-03-03 19:00:23.509]: Info: Found monitor for DRM screencasting
+[2025-03-03 19:00:23.509]: Error: Failed to determine panel orientation, defaulting to landscape.
+[2025-03-03 19:00:23.509]: Info: Found connector ID [40]
+[2025-03-03 19:00:23.509]: Warning: No KMS cursor plane found. Cursor may not be displayed while streaming!
+[2025-03-03 19:00:23.521]: Info: Creating encoder [libx264]
+[2025-03-03 19:00:23.521]: Info: Color coding: SDR (Rec. 601)
+[2025-03-03 19:00:23.521]: Info: Color depth: 8-bit
+[2025-03-03 19:00:23.521]: Info: Color range: MPEG
+[2025-03-03 19:00:23.521]: Info: [libx264 @ 0xffff2c0025a0] using cpu capabilities: ARMv8 NEON
+[2025-03-03 19:00:23.521]: Info: [libx264 @ 0xffff2c0025a0] profile High, level 5.1, 4:2:0, 8-bit
+[2025-03-03 19:00:23.957]: Info: Setting default sink to: [sink-sunshine-surround71]
+[2025-03-03 19:00:23.957]: Info: Found default monitor by name: sink-sunshine-surround71.monitor
+[2025-03-03 19:00:24.007]: Info: Opus initialized: 48 kHz, 8 channels, 2048 kbps (total), LOWDELAY
+[2025-03-03 19:00:45.547]: Info: CLIENT DISCONNECTED
+[2025-03-03 19:00:45.550]: Info: Setting default sink to: [audio_effect.j414-convolver]
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] frame I:1     Avg QP:15.35  size:123498
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] frame P:616   Avg QP: 0.91  size: 24811
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] mb I  I16..4: 66.0% 20.1% 13.9%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] mb P  I16..4:  0.2%  0.0%  0.0%  P16..4: 28.4%  0.0%  0.0%  0.0%  0.0%    skip:71.4%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] 8x8 transform intra:10.0% inter:3.8%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] coded y,uvDC,uvAC intra: 20.3% 24.0% 18.4% inter: 10.9% 4.6% 4.5%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] i16 v,h,dc,p: 85% 12%  1%  1%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  9% 23% 31%  5%  6%  3%  7%  3% 13%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 34% 30% 12%  2%  6%  4%  3%  4%  5%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] i8c dc,h,v,p: 66% 18% 14%  2%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] Weighted P-Frames: Y:0.0% UV:0.0%
+[2025-03-03 19:00:45.551]: Info: [libx264 @ 0xffff2c0025a0] kb/s:11986.12

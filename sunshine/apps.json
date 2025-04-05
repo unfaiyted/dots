@@ -1,0 +1,45 @@
+{
+    "env": {
+        "PATH": "$(PATH):$(HOME)\/.local\/bin"
+    },
+    "apps": [
+        {
+            "name": "Auto Resolution",
+            "output": "",
+            "cmd": "",
+            "exclude-global-prep-cmd": "false",
+            "elevated": "false",
+            "auto-detach": "true",
+            "wait-all": "true",
+            "exit-timeout": "5",
+            "prep-cmd": [
+                {
+                    "do": "hyprctl keyword monitor eDP-1,preferred,auto,1.5",
+                    "undo": "hyprctl keyword monitor eDP-1,preferred,auto,2"
+                }
+            ],
+            "image-path": ""
+        },
+        {
+            "name": "Desktop",
+            "image-path": "desktop.png"
+        },
+        {
+            "name": "Low Res Desktop",
+            "image-path": "desktop.png",
+            "prep-cmd": [
+                {
+                    "do": "xrandr --output HDMI-1 --mode 1920x1080",
+                    "undo": "xrandr --output HDMI-1 --mode 1920x1200"
+                }
+            ]
+        },
+        {
+            "name": "Steam Big Picture",
+            "detached": [
+                "setsid steam steam:\/\/open\/bigpicture"
+            ],
+            "image-path": "steam.png"
+        }
+    ]
+}

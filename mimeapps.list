@@ -1,0 +1,35 @@
+[Default Applications]
+inode/directory=thunar.desktop
+application/x-wayland-gnome-saved-search=thunar.desktop
+application/octet-stream=nvim.desktop
+x-scheme-handler/http=userapp-Zen-GNMR32.desktop
+x-scheme-handler/https=userapp-Zen-GNMR32.desktop
+x-scheme-handler/chrome=userapp-Zen-GNMR32.desktop
+text/html=userapp-Zen-GNMR32.desktop
+application/x-extension-htm=userapp-Zen-GNMR32.desktop
+application/x-extension-html=userapp-Zen-GNMR32.desktop
+application/x-extension-shtml=userapp-Zen-GNMR32.desktop
+application/xhtml+xml=userapp-Zen-GNMR32.desktop
+application/x-extension-xhtml=userapp-Zen-GNMR32.desktop
+application/x-extension-xht=userapp-Zen-GNMR32.desktop
+text/plain=nvim.desktop
+
+[Added Associations]
+application/zip=xarchiver.desktop;
+font/otf=org.gnome.font-viewer.desktop;com.github.FontManager.FontViewer.desktop;
+font/ttf=com.github.FontManager.FontViewer.desktop;com.github.FontManager.FontManager.desktop;org.gnome.font-viewer.desktop;
+text/css=nvim.desktop;libreoffice-writer.desktop;
+application/octet-stream=org.gnome.TextEditor.desktop;nvim.desktop;
+x-scheme-handler/http=userapp-Zen-GNMR32.desktop;zen-browser.desktop;
+x-scheme-handler/https=userapp-Zen-GNMR32.desktop;zen-browser.desktop;
+x-scheme-handler/chrome=userapp-Zen-GNMR32.desktop;zen-browser.desktop;
+text/html=zen-browser.desktop;userapp-Zen-GNMR32.desktop;
+application/x-extension-htm=zen-browser.desktop;userapp-Zen-GNMR32.desktop;
+application/x-extension-html=zen-browser.desktop;userapp-Zen-GNMR32.desktop;
+application/x-extension-shtml=zen-browser.desktop;userapp-Zen-GNMR32.desktop;
+application/xhtml+xml=zen-browser.desktop;userapp-Zen-GNMR32.desktop;
+application/x-extension-xhtml=zen-browser.desktop;userapp-Zen-GNMR32.desktop;
+application/x-extension-xht=zen-browser.desktop;userapp-Zen-GNMR32.desktop;
+application/x-xz-compressed-tar=xarchiver.desktop;
+text/x-devicetree-source=nvim.desktop;
+text/plain=org.gnome.TextEditor.desktop;nvim.desktop;
