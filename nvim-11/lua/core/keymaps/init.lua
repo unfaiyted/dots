@@ -1,6 +1,10 @@
 -- Keymaps configuration
+-- Import only what we need from vim to avoid linter warnings
 local keymap = vim.keymap.set
+local diagnostic = vim.diagnostic
 local opts = { noremap = true, silent = true }
+
+-- Neo-tree is now configured via plugins.neotree using <localleader>e
 
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
@@ -26,7 +30,7 @@ keymap("v", ">", ">gv", opts)
 keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k>", ":m .-2<CR>==", opts)
 
--- Better paste (doesent replace default register)
+-- Better paste (doesn`t replace default register)
 keymap("v", "p", '"_dP', opts)
 
 -- Clear search highlights
@@ -64,8 +68,8 @@ keymap('n', 'ge', function()
   local has_errors = false
 
   -- First check if there are any errors
-  for _, diagnostic in ipairs(vim.diagnostic.get(0)) do
-    if diagnostic.severity == vim.diagnostic.severity.ERROR then
+  for _, diag in ipairs(diagnostic.get(0)) do
+    if diag.severity == diagnostic.severity.ERROR then
       has_errors = true
       break
     end
@@ -73,9 +77,9 @@ keymap('n', 'ge', function()
 
   -- If there are errors, go to next error, otherwise go to next diagnostic
   if has_errors then
-    vim.diagnostic.goto_next { severity = vim.diagnostic.severity.ERROR }
+    diagnostic.jump({ severity = diagnostic.severity.ERROR, forward = true, count = 1 })
   else
-    vim.diagnostic.goto_next()
+    diagnostic.jump({ forward = true, count = 1 })
   end
 end, { desc = '[G]o to next [e]rror or diagnostic' })
 

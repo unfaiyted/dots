@@ -54,6 +54,7 @@ return {
           flip_columns = 120,
         },
       },
+      async_or_timeout = 3000,
 
       -- Keymap settings
       keymap = {

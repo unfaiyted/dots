@@ -21,10 +21,10 @@ return {
     }
   },
   sections = {
-    lualine_a = { 
-      { 'mode', icon = '' } 
+    lualine_a = {
+      { 'mode', icon = '' }
     },
-    lualine_b = { 
+    lualine_b = {
       { 'branch', icon = icons.git.Branch },
       {
         'diff',
@@ -35,8 +35,8 @@ return {
         },
       },
     },
-    lualine_c = { 
-      { 
+    lualine_c = {
+      {
         'diagnostics',
         symbols = {
           error = icons.diagnostics.Error,

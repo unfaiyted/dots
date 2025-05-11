@@ -1,9 +1,12 @@
 -- LSP configuration for nvim-11 with built-in LSP support
-
+local vim = vim
 return {
 	-- Mason 2.0 for LSP server installation management
 	{
 		"mason-org/mason.nvim",
+		event = {},
+		cmd = { "Mason", "MasonInstall", "MasonUninstall", "MasonUninstallAll", "MasonLog" },
+		keys = {},
 		lazy = false, -- Mason should not be lazy-loaded as per docs
 		priority = 100, -- Load early
 		opts = {
@@ -25,6 +28,9 @@ return {
 	-- Mason integration with lspconfig
 	{
 		"williamboman/mason-lspconfig.nvim",
+		event = {},
+		cmd = {},
+		keys = {},
 		dependencies = {
 			"mason-org/mason.nvim",
 		},
@@ -33,10 +39,10 @@ return {
 			ensure_installed = {
 				"lua_ls",
 				"pyright",
-				"tsserver",
 				"bashls",
 				"jsonls",
 				"yamlls",
+				"svelte",
 			},
 			-- Auto-install configured servers (with lspconfig)
 			automatic_installation = true,
@@ -46,6 +52,9 @@ return {
 	-- blink.cmp integration with LSP
 	{
 		"saghen/blink.cmp",
+		event = {},
+		cmd = {},
+		keys = {},
 		dependencies = {
 			"rafamadriz/friendly-snippets",
 		},
@@ -72,6 +81,8 @@ return {
 			"williamboman/mason-lspconfig.nvim",
 			"saghen/blink.cmp",
 		},
+		opts = {},
+		keys = {},
 		event = { "BufReadPre", "BufNewFile" },
 		config = function()
 			-- Configure LSP using nvim-11's built-in LSP support
@@ -84,6 +95,7 @@ return {
 				"bashls",
 				"jsonls",
 				"yamlls",
+				"svelte",
 			}
 
 			for _, server in ipairs(servers) do
@@ -96,12 +108,37 @@ return {
 					Lua = {
 						diagnostics = {
 							globals = { "vim" },
+							disable = { "undefined-global" },  -- Disable the undefined-global diagnostic
 						},
 						workspace = {
 							library = {
 								[vim.fn.expand("$VIMRUNTIME/lua")] = true,
 								[vim.fn.stdpath("config") .. "/lua"] = true,
 							},
+							checkThirdParty = false,  -- Disable annoying prompt
+						},
+						telemetry = {
+							enable = false,
+						},
+					},
+				},
+			})
+
+			-- Configure Svelte LSP
+			vim.lsp.config("svelte", {
+				settings = {
+					svelte = {
+						plugin = {
+							html = {
+								completions = { enable = true, emmet = true },
+							},
+							svelte = {
+								diagnostics = { enable = true },
+								compilerWarnings = {
+									["a11y-click-events-have-key-events"] = "ignore",
+								},
+							},
+							css = { completions = { enable = true, emmet = true } },
 						},
 					},
 				},
@@ -126,7 +163,7 @@ return {
 				severity_sort = true,
 				float = {
 					border = "rounded",
-					source = "always",
+					source = true,
 				},
 			})
 
@@ -159,8 +196,8 @@ return {
 					end, opts)
 					vim.keymap.set("n", "<leader>D", vim.lsp.buf.type_definition, opts)
 					vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, opts)
-					vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, opts)
-					vim.keymap.set("n", "]d", vim.diagnostic.goto_next, opts)
+					vim.keymap.set("n", "[d", function() vim.diagnostic.jump({forward = false, count = 1}) end, opts)
+					vim.keymap.set("n", "]d", function() vim.diagnostic.jump({forward = true, count = 1}) end, opts)
 				end,
 			})
 		end,
@@ -169,6 +206,7 @@ return {
 	-- Additional LSP tools and UI
 	{
 		"folke/trouble.nvim",
+		event = {},
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 		cmd = { "TroubleToggle", "Trouble" },
 		keys = {
@@ -180,4 +218,3 @@ return {
 		opts = {},
 	},
 }
-

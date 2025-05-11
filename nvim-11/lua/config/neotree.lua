@@ -1,4 +1,5 @@
 -- Neo-tree configuration
+local vim = vim
 return {
   close_if_last_window = true,
   popup_border_style = "rounded",
@@ -52,12 +53,34 @@ return {
   window = {
     position = "float",
     width = 40,
-    mapping_options = {
-      noremap = true,
-      nowait = true,
+    height = 20,
+    auto_clean_after_session_restore = true,
+    float = {
+      enable = true,
+      quit_on_focus_loss = false, -- Don't close on focus loss
+      open_win_config = function()
+        local screen_w = vim.opt.columns:get()
+        local screen_h = vim.opt.lines:get() - vim.opt.cmdheight:get()
+        local window_w = screen_w * 0.5
+        local window_h = screen_h * 0.6
+        local center_x = (screen_w - window_w) / 2
+        local center_y = (screen_h - window_h) / 2
+
+        return {
+          border = "rounded",
+          relative = "editor",
+          row = center_y,
+          col = center_x,
+          width = math.floor(window_w),
+          height = math.floor(window_h),
+          style = "minimal", -- No number column, etc.
+          title = "Neo-tree", -- Add a title
+          title_pos = "center", -- Center the title
+        }
+      end,
     },
     mappings = {
-      ["<leader>e"] = {
+      ["<space>"] = {
         "toggle_node",
         nowait = false,
       },
@@ -89,9 +112,26 @@ return {
       ["q"] = "close_window",
       ["R"] = "refresh",
       ["?"] = "show_help",
+
+      -- Source navigation keys
       ["<"] = "prev_source",
       [">"] = "next_source",
+
+      -- Quick switch between sources using capital letters
+      ["F"] = "prev_source", -- Navigate to previous source
+      ["B"] = "next_source", -- Navigate to next source
+      ["G"] = "next_source", -- Alternative way to navigate
     }
+  },
+  sources = {"filesystem", "buffers", "git_status"},
+  source_selector = {
+    winbar = true,
+    content_layout = "center",
+    sources = {
+      { source = "filesystem", display_name = " Files" },
+      { source = "buffers", display_name = "󰈙 Buffers" },
+      { source = "git_status", display_name = "󰊢 Git" },
+    },
   },
   filesystem = {
     filtered_items = {
@@ -137,6 +177,7 @@ return {
         ["<c-x>"] = "clear_filter",
         ["[g"] = "prev_git_modified",
         ["]g"] = "next_git_modified",
+        ["<esc>"] = "close_window",
       },
       fuzzy_finder_mappings = {
         ["<down>"] = "move_cursor_down",

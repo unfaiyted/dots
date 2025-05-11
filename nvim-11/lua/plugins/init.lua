@@ -9,26 +9,37 @@ return {
 
 	-- Load TreeSitter navigation plugins with floating windows
 	{ import = "plugins.symbols_outline" },
-	{ import = "plugins.navbuddy" },
+	{ import = "plugins.aerial" }, -- Use aerial instead of navbuddy (more stable)
+-- { import = "plugins.navbuddy" }, -- Temporarily disabled due to errors
 	{ import = "plugins.treesitter_context" },
 
 	-- Load language specific plugins
 	{ import = "plugins.go" },
+	{ import = "plugins.svelte" },
 
 	-- Load formatting plugins
 	{ import = "plugins.formatter" },
 
-
 	-- Colorscheme
-	{
-		"folke/tokyonight.nvim",
-		lazy = false, -- load during startup
-		priority = 1000, -- load before all other plugins
-		config = function()
-			-- Load the colorscheme
-			vim.cmd([[colorscheme tokyonight-moon]])
-		end,
-	},
+  {
+  'rose-pine/neovim',
+  name = 'rose-pine',
+  lazy = false,
+  priority = 1000,
+  config = function()
+    require('rose-pine').setup {
+      -- Choose one of these options:
+      variant = 'moon',
+
+      -- Option 1: Use variant's existing colors but make the separator more visible
+      highlight_groups = {
+        WinSeparator = { fg = 'love' }, -- Use Rose Pine's 'love' color
+      },
+    }
+
+    vim.cmd 'colorscheme rose-pine'
+  end,
+ },
 
 	-- Essential plugins
 	{ "nvim-lua/plenary.nvim", lazy = true },
@@ -55,21 +66,7 @@ return {
 	},
 
 	-- File explorer
-	{
-		"nvim-neo-tree/neo-tree.nvim",
-		cmd = "Neotree",
-		keys = {
-			{ "<leader>e", "<cmd>Neotree toggle<cr>", desc = "Toggle Explorer" },
-		},
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"nvim-tree/nvim-web-devicons",
-			"MunifTanjim/nui.nvim",
-		},
-		config = function()
-			require("config.neotree")
-		end,
-	},
+	{ import = "plugins.neotree" },
 
 	-- Fuzzy finder
 	{

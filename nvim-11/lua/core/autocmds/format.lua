@@ -1,4 +1,5 @@
 -- Auto-formatting configuration
+local vim = vim
 local augroup = vim.api.nvim_create_augroup
 local autocmd = vim.api.nvim_create_autocmd
 
@@ -14,27 +15,34 @@ autocmd("BufWritePre", {
   },
   callback = function()
     -- Prefer conform.nvim for formatting
-    local conform_available, conform = pcall(require, "conform")
+    local conform_available, _ = pcall(require, "conform")
     if conform_available then
       -- Mark the buffer as "being formatted" to avoid double formatting
       vim.b[vim.api.nvim_get_current_buf()].conform_already_formatted_on_save = true
       return
     end
-    
+
     -- Fall back to LSP formatting if conform isn't available
     local has_lsp_format_capability = false
     local bufnr = vim.api.nvim_get_current_buf()
-    
+
+    local filter = {
+      bufnr = bufnr,
+      method = "textDocument/formatting",
+      -- Only format if the buffer is not being formatted by conform.nvim
+      extra = { conform_already_formatted_on_save = false },
+    }
+
     -- Check if any attached LSP server has formatting capability
-    for _, client in pairs(vim.lsp.buf_get_clients(bufnr)) do
-      if client.server_capabilities.documentFormattingProvider then
+    for _, client in pairs(vim.lsp.get_clients(filter)) do
+      if client and client.server_capabilities and client.server_capabilities.documentFormattingProvider then
         has_lsp_format_capability = true
         break
       end
     end
-    
+
     if has_lsp_format_capability then
-      vim.lsp.buf.format({ 
+      vim.lsp.buf.format({
         async = false,
         timeout_ms = 2000,
       })
@@ -50,11 +58,11 @@ autocmd("BufWritePre", {
     -- Skip if conform.nvim is available or go.nvim is available
     local conform_available = pcall(require, "conform")
     local go_available = pcall(require, "go")
-    
+
     if conform_available or go_available then
       return
     end
-    
+
     -- Fall back to gofmt if neither go.nvim nor conform.nvim is available
     local output = vim.fn.system("gofmt -s " .. vim.fn.shellescape(vim.api.nvim_buf_get_name(0)))
     if vim.v.shell_error == 0 then

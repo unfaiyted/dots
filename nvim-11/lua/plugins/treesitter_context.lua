@@ -23,7 +23,7 @@ return {
       })
     end,
   },
-  
+
   -- TreeSitter Playground - view AST and nodes
   {
     "nvim-treesitter/playground",

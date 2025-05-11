@@ -10,6 +10,7 @@ return {
     "typescript",
     "css",
     "html",
+    "bash",
     "latex",
     "norg",
     "regex",

@@ -2,25 +2,26 @@
 -- Adds a floating window interface for navigating code structure
 
 return {
-  "SmiteshP/nvim-navbuddy",
+  "hasansujon786/nvim-navbuddy",
   dependencies = {
     "neovim/nvim-lspconfig",
     "SmiteshP/nvim-navic",
-    "MunifTanjim/nui.nvim"
+    { "MunifTanjim/nui.nvim", version = "*" } -- Latest stable version
   },
+  enabled = false, -- Temporarily disable until issues are fixed
   keys = {
     { "<leader>nb", "<cmd>Navbuddy<CR>", desc = "Navigation Buddy (Code Outline)" },
   },
   config = function()
     local navbuddy = require("nvim-navbuddy")
     local actions = require("nvim-navbuddy.actions")
-    
+
     navbuddy.setup({
       window = {
         border = "rounded",  -- "rounded", "double", "solid", "none"
         size = "60%",       -- Or table format example: { height = "40%", width = "100%" }
         position = "50%",   -- Or table format example: { row = "100%", col = "0%" }
-        scrolloff = 5,      -- scrolloff value within navbuddy window
+        -- scrolloff = 5,   -- Temporarily comment out to fix nui.nvim error
         sections = {
           left = {
             size = "20%",
@@ -76,14 +77,13 @@ return {
         TypeParameter = "󰊄 ",
       },
       lsp = {
-        auto_attach = true,   -- If set to true, automatically attach to newly initialized LSP servers
-        preference = nil,     -- List of server names in order of preference
+        auto_attach = true   -- If set to true, automatically attach to newly initialized LSP servers
       },
       source_buffer = {
         follow_node = true,   -- Keep the current node in focus on the source buffer
         highlight = true,     -- Highlight the currently focused node
         reorient = "smart",   -- "smart", "top", "mid" or "none"
-        scrolloff = nil,      -- scrolloff value when navbuddy is active
+        -- scrolloff = nil,   -- Temporarily comment out to fix nui.nvim error
       },
       mappings = {
         ["<esc>"] = actions.close,        -- Close and cursor to original location
@@ -122,7 +122,7 @@ return {
         ["H"] = actions.help,               -- Open help
       },
     })
-    
+
     -- Auto-attach to LSP servers
     require("nvim-navic").setup({
       lsp = {

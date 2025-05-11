@@ -1,5 +1,6 @@
 -- Neovim options configuration
 local opt = vim.opt
+local vim = vim
 local g = vim.g
 
 -- Leader key

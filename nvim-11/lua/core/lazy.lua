@@ -1,4 +1,5 @@
 -- Bootstrap and configure lazy.nvim plugin manager
+local vim = vim
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -23,8 +24,9 @@ require("lazy").setup({
     lazy = true,      -- load plugins lazily
     version = false,  -- always use the latest git commit
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
+  install = { colorscheme = { "rose-pine", "habamax" } },
   checker = { enabled = true, notify = false },  -- automatically check for plugin updates
+  debug = true, -- enable debug logging
   performance = {
     rtp = {
       disabled_plugins = {
