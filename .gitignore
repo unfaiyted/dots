@@ -50,3 +50,6 @@ wlogout/
 xarchiver/
 xfce4/
 xsettingsd/
+beekeeper-studio/
+
+**/.claude/settings.local.json
