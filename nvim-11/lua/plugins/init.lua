@@ -5,7 +5,7 @@ return {
 	-- or imported from separate modules
 
 	-- Load treesitter fix for vim.validate deprecation
-	{ import = "plugins.treesitter_fix" },
+	-- { import = "plugins.treesitter_fix" },
 
 	-- Load TreeSitter navigation plugins with floating windows
 	{ import = "plugins.symbols_outline" },
@@ -29,7 +29,7 @@ return {
   config = function()
     require('rose-pine').setup {
       -- Choose one of these options:
-      variant = 'moon',
+      -- variant = 'moon',
 
       -- Option 1: Use variant's existing colors but make the separator more visible
       highlight_groups = {

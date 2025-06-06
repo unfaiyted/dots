@@ -12,31 +12,31 @@ return {
     keys = {
       -- File and buffer navigation
       { "<leader><leader>", "<cmd>FzfLua files<CR>",                desc = "Find Files" },
-      { "<leader>fo", "<cmd>FzfLua oldfiles<CR>",             desc = "Recent Files" },
-      { "<leader>fb", "<cmd>FzfLua buffers<CR>",              desc = "Buffers" },
-      { "<leader>fh", "<cmd>FzfLua help_tags<CR>",            desc = "Help Tags" },
+      { "<leader>fo",       "<cmd>FzfLua oldfiles<CR>",             desc = "Recent Files" },
+      { "<leader>fb",       "<cmd>FzfLua buffers<CR>",              desc = "Buffers" },
+      { "<leader>fh",       "<cmd>FzfLua help_tags<CR>",            desc = "Help Tags" },
 
       -- Search
-      { "<leader>fg", "<cmd>FzfLua grep<CR>",                 desc = "Grep" },
-      { "<leader>fp", "<cmd>FzfLua live_grep<CR>",            desc = "Live Grep" },
-      { "<leader>fw", "<cmd>FzfLua grep_cword<CR>",           desc = "Grep Word Under Cursor" },
+      { "<leader>fg",       "<cmd>FzfLua grep<CR>",                 desc = "Grep" },
+      { "<leader>fp",       "<cmd>FzfLua live_grep<CR>",            desc = "Live Grep" },
+      { "<lrader>fw",       "<cmd>FzfLua grep_cword<CR>",           desc = "Grep Word Under Cursor" },
 
       -- LSP
-      { "<leader>gs", "<cmd>FzfLua lsp_document_symbols<CR>", desc = "Document Symbols" },
-      { "<leader>gr", "<cmd>FzfLua lsp_references<CR>",       desc = "References" },
-      { "<leader>gd", "<cmd>FzfLua lsp_definitions<CR>",      desc = "Definitions" },
-      { "<leader>gi", "<cmd>FzfLua lsp_implementations<CR>",  desc = "Implementations" },
-      { "<leader>gt", "<cmd>FzfLua lsp_typedefs<CR>",         desc = "Type Definitions" },
+      { "<leader>gs",       "<cmd>FzfLua lsp_document_symbols<CR>", desc = "Document Symbols" },
+      { "<leader>gr",       "<cmd>FzfLua lsp_references<CR>",       desc = "References" },
+      { "<leader>gd",       "<cmd>FzfLua lsp_definitions<CR>",      desc = "Definitions" },
+      { "<leader>gi",       "<cmd>FzfLua lsp_implementations<CR>",  desc = "Implementations" },
+      { "<leader>gt",       "<cmd>FzfLua lsp_typedefs<CR>",         desc = "Type Definitions" },
 
       -- Git
-      { "<leader>gc", "<cmd>FzfLua git_commits<CR>",          desc = "Git Commits" },
-      { "<leader>gs", "<cmd>FzfLua git_status<CR>",           desc = "Git Status" },
-      { "<leader>gb", "<cmd>FzfLua git_branches<CR>",         desc = "Git Branches" },
+      { "<leader>gc",       "<cmd>FzfLua git_commits<CR>",          desc = "Git Commits" },
+      { "<leader>gs",       "<cmd>FzfLua git_status<CR>",           desc = "Git Status" },
+      { "<leader>gb",       "<cmd>FzfLua git_branches<CR>",         desc = "Git Branches" },
 
       -- Misc
-      { "<leader>fk", "<cmd>FzfLua keymaps<CR>",              desc = "Keymaps" },
-      { "<leader>fc", "<cmd>FzfLua commands<CR>",             desc = "Commands" },
-      { "<leader>fo", "<cmd>FzfLua colorschemes<CR>",         desc = "Colorschemes" },
+      { "<leader>fk",       "<cmd>FzfLua keymaps<CR>",              desc = "Keymaps" },
+      { "<leader>fc",       "<cmd>FzfLua commands<CR>",             desc = "Commands" },
+      { "<leader>fo",       "<cmd>FzfLua colorschemes<CR>",         desc = "Colorschemes" },
     },
     opts = {
       -- Use the "fzf-native" profile for best performance
@@ -121,6 +121,9 @@ return {
         ["ctrl-v"] = actions.file_vsplit,
         ["ctrl-t"] = actions.file_tabedit,
       }
+
+
+
 
       -- Apply actions to relevant commands
       local command_actions = fzf_lua.config.globals.actions or {}

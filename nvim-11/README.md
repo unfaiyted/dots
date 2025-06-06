@@ -43,11 +43,13 @@ A clean, modern Neovim configuration using the latest Neovim 0.11+ features.
 ## Installation
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/username/nvim-11-config.git ~/.config/nvim-11
    ```
 
 2. Start Neovim:
+
    ```bash
    nvim
    ```
@@ -95,3 +97,4 @@ Edit the files in the configuration structure to customize your setup:
 - [LazyVim](https://github.com/LazyVim/LazyVim) - For structural inspiration
 - [NvChad](https://github.com/NvChad/NvChad) - For UI ideas
 - [Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) - For LSP setup inspiration
+

@@ -37,6 +37,9 @@ return {
         rust = { "rustfmt" },
         c = { "clang_format" },
         cpp = { "clang_format" },
+        -- HTTP request files formatted with kulala
+        http = { "kulala" },
+        rest = { "kulala" },
         -- Add more languages as needed
 
         -- Fallback formatter for any filetype
@@ -62,6 +65,14 @@ return {
         },
         stylua = {
           prepend_args = { "--indent-type", "Spaces", "--indent-width", "2" },
+        },
+        prettier = {
+          -- Ensure prettier also uses 2 space indent
+          prepend_args = { "--tab-width", "2", "--print-width", "100" },
+        },
+        prettierd = {
+          -- Same config for prettierd
+          prepend_args = { "--tab-width", "2", "--print-width", "100" },
         },
       },
 
@@ -97,9 +108,15 @@ return {
       return {
         sources = {
           -- Go additional tools
-          null_ls.builtins.diagnostics.golangci_lint,
-          null_ls.builtins.code_actions.gomodifytags,
+          -- null_ls.builtins.diagnostics.golangci_lint,
+          -- null_ls.builtins.code_actions.gomodifytags,
           null_ls.builtins.code_actions.impl,
+          -- null_ls.builtins.formatting.goimports,
+          -- null_ls.builtins.formatting.gofumpt,
+
+
+          null_ls.builtins.formatting.terraform_fmt,
+          -- null_ls.builtins.formatting.terraform_terrafmt,
 
           -- Python
           null_ls.builtins.diagnostics.pylint,

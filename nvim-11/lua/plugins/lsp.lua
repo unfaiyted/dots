@@ -43,9 +43,12 @@ return {
 				"jsonls",
 				"yamlls",
 				"svelte",
+				"vtsls",
 			},
 			-- Auto-install configured servers (with lspconfig)
 			automatic_installation = true,
+      -- Automatically update LSP servers
+      automatic_updates = true,
 		},
 	},
 
@@ -85,121 +88,8 @@ return {
 		keys = {},
 		event = { "BufReadPre", "BufNewFile" },
 		config = function()
-			-- Configure LSP using nvim-11's built-in LSP support
-
-			-- Enable all the servers with vim.lsp.enable
-			local servers = {
-				"lua_ls",
-				"pyright",
-				"tsserver",
-				"bashls",
-				"jsonls",
-				"yamlls",
-				"svelte",
-			}
-
-			for _, server in ipairs(servers) do
-				vim.lsp.enable(server)
-			end
-
-			-- Configure specific LSP server settings
-			vim.lsp.config("lua_ls", {
-				settings = {
-					Lua = {
-						diagnostics = {
-							globals = { "vim" },
-							disable = { "undefined-global" },  -- Disable the undefined-global diagnostic
-						},
-						workspace = {
-							library = {
-								[vim.fn.expand("$VIMRUNTIME/lua")] = true,
-								[vim.fn.stdpath("config") .. "/lua"] = true,
-							},
-							checkThirdParty = false,  -- Disable annoying prompt
-						},
-						telemetry = {
-							enable = false,
-						},
-					},
-				},
-			})
-
-			-- Configure Svelte LSP
-			vim.lsp.config("svelte", {
-				settings = {
-					svelte = {
-						plugin = {
-							html = {
-								completions = { enable = true, emmet = true },
-							},
-							svelte = {
-								diagnostics = { enable = true },
-								compilerWarnings = {
-									["a11y-click-events-have-key-events"] = "ignore",
-								},
-							},
-							css = { completions = { enable = true, emmet = true } },
-						},
-					},
-				},
-			})
-
-			-- Add blink.cmp's LSP capabilities to all servers
-			local blink_capabilities = require("blink.cmp").get_lsp_capabilities()
-
-			-- Apply blink.cmp capabilities to all servers
-			for _, server in ipairs(servers) do
-				vim.lsp.config(server, {
-					capabilities = blink_capabilities,
-				})
-			end
-
-			-- Configure diagnostics
-			vim.diagnostic.config({
-				virtual_text = true,
-				signs = true,
-				underline = true,
-				update_in_insert = false,
-				severity_sort = true,
-				float = {
-					border = "rounded",
-					source = true,
-				},
-			})
-
-			-- Configure LSP handlers
-			vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, {
-				border = "rounded",
-			})
-
-			vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, {
-				border = "rounded",
-			})
-
-			-- Set up keymaps for LSP
-			vim.api.nvim_create_autocmd("LspAttach", {
-				group = vim.api.nvim_create_augroup("UserLspConfig", {}),
-				callback = function(event)
-					local opts = { buffer = event.buf, noremap = true, silent = true }
-
-					-- Set key mappings
-					vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
-					vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
-					vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)
-					vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
-					vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
-					vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts)
-					vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
-					vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts)
-					vim.keymap.set("n", "<leader>f", function()
-						vim.lsp.buf.format({ async = true })
-					end, opts)
-					vim.keymap.set("n", "<leader>D", vim.lsp.buf.type_definition, opts)
-					vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, opts)
-					vim.keymap.set("n", "[d", function() vim.diagnostic.jump({forward = false, count = 1}) end, opts)
-					vim.keymap.set("n", "]d", function() vim.diagnostic.jump({forward = true, count = 1}) end, opts)
-				end,
-			})
+			-- Load and setup LSP configurations from lua/lsp directory
+			require("lsp").setup()
 		end,
 	},
 

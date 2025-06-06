@@ -16006,3 +16006,1853 @@
 [2025-05-08 22:37:50.720] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  6013de88-8fb5-4950-bca5-e3af4c1ff4e3
 [2025-05-08 22:37:50.720] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get a58acf06-558e-43df-bd37-5570dbab5cd5
 [2025-05-08 22:37:50.720] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  a58acf06-558e-43df-bd37-5570dbab5cd5
+[2025-05-14 16:26:13.215] [info]                        initializing background
+[2025-05-14 16:26:15.788] [info]  (main.ts) starting logging
+[2025-05-14 16:26:15.792] [debug] (main.ts) APP BOOTING
+[2025-05-14 16:26:15.792] [debug] (main.ts) ####################################
+[2025-05-14 16:26:15.792] [debug] (main.ts) Platform Information (App)
+[2025-05-14 16:26:15.792] [debug] (main.ts) {
+  "isWindows": false,
+  "isMac": false,
+  "isArm": true,
+  "oracleSupported": true,
+  "parsedArgs": {
+    "_": [],
+    "sandbox": false
+  },
+  "isLinux": true,
+  "sessionType": "wayland",
+  "isWayland": false,
+  "isPortable": false,
+  "isDevelopment": false,
+  "isAppImage": false,
+  "resourcesPath": "/tmp/.mount_Beekee4S8C84/resources",
+  "env": {
+    "development": false,
+    "test": false,
+    "production": true
+  },
+  "debugEnabled": false,
+  "platform": "linux",
+  "darkMode": false,
+  "userDirectory": "/home/faiyt/.config/beekeeper-studio",
+  "downloadsDirectory": "/home/faiyt/Downloads",
+  "homeDirectory": "/home/faiyt",
+  "pluginsDirectory": "/home/faiyt/.config/beekeeper-studio/plugins",
+  "testMode": false,
+  "appDbPath": "/home/faiyt/.config/beekeeper-studio/app.db",
+  "updatesDisabled": false,
+  "appVersion": "5.1.5",
+  "parsedAppVersion": {
+    "major": 5,
+    "minor": 1,
+    "patch": 5,
+    "channel": "stable"
+  },
+  "cloudUrl": "https://app.beekeeperstudio.io",
+  "locale": ""
+}
+[2025-05-14 16:26:15.794] [info]  (renderer/utilityconnection) QUEUEING REQUEST FOR NAME, ID:  license/getStatus 2daa8323-086a-4b8f-b520-f062afd9142e
+[2025-05-14 16:26:15.801] [info]  (main.ts)                    Received port in renderer with sId:  ba4aade1-01bd-4cca-bd92-8475aed55322
+[2025-05-14 16:26:15.801] [info]  (renderer/utilityconnection) RECEIVED PORT IN UtilityConnection:  {}
+[2025-05-14 16:26:15.801] [info]  (renderer/utilityconnection) PROCESSING QUEUED REQUEST:  license/getStatus 2daa8323-086a-4b8f-b520-f062afd9142e
+[2025-05-14 16:26:15.801] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/find f3aa9155-160a-4b64-9710-11da86ea14e3
+[2025-05-14 16:26:15.809] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  2daa8323-086a-4b8f-b520-f062afd9142e
+[2025-05-14 16:26:15.809] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get c340f62d-e29f-43c0-b983-cd3bb3160b1b
+[2025-05-14 16:26:15.811] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  f3aa9155-160a-4b64-9710-11da86ea14e3
+[2025-05-14 16:26:15.811] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  c340f62d-e29f-43c0-b983-cd3bb3160b1b
+[2025-05-14 16:26:15.811] [info]  (renderer/utilityconnection) ADDED LISTENER:  enumFileChanged 3565a9c1-e353-46fd-9560-c2457d0faad2
+[2025-05-14 16:26:15.811] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  enum/init dd91c862-bfe6-485d-b328-9ceb900dd041
+[2025-05-14 16:26:15.812] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  dd91c862-bfe6-485d-b328-9ceb900dd041
+[2025-05-14 16:26:15.812] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  enum/load ed006c28-a353-475a-ac11-b7baea892e59
+[2025-05-14 16:26:15.813] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  ed006c28-a353-475a-ac11-b7baea892e59
+[2025-05-14 16:26:15.853] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/query/find d2ceb2d7-4257-43f4-adc0-69b146fe1586
+[2025-05-14 16:26:15.853] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/saved/find d0f399d6-236b-468d-a460-bd1afbb4d069
+[2025-05-14 16:26:15.854] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/usedQuery/find 9fcf95f2-e389-4a12-9027-c86c3fbff837
+[2025-05-14 16:26:15.854] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/used/find 356bba5c-a514-49b1-be14-dcd55e46d7d3
+[2025-05-14 16:26:15.855] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 57256ae5-b50b-4633-9df1-25f15dcd5890
+[2025-05-14 16:26:15.892] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/credential/find 25ff1f1f-4e63-40f5-b40b-fd47f5eb0720
+[2025-05-14 16:26:15.923] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/get 6df28d16-0772-4292-83bb-4fcd20dafcd2
+[2025-05-14 16:26:15.924] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/get c66c89d9-d85b-4011-9842-0ef9d0b0e8cf
+[2025-05-14 16:26:15.924] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/saved/new 7cd519c0-a6ec-4836-b646-9d14b186b0ac
+[2025-05-14 16:26:15.950] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d2ceb2d7-4257-43f4-adc0-69b146fe1586
+[2025-05-14 16:26:15.950] [debug] (StateManager)               removing from search index 0
+[2025-05-14 16:26:15.950] [debug] (StateManager)               adding to search index 1
+[2025-05-14 16:26:15.951] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d0f399d6-236b-468d-a460-bd1afbb4d069
+[2025-05-14 16:26:15.952] [debug] (StateManager)               removing from search index 0
+[2025-05-14 16:26:15.952] [debug] (StateManager)               adding to search index 2
+[2025-05-14 16:26:15.953] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  9fcf95f2-e389-4a12-9027-c86c3fbff837
+[2025-05-14 16:26:15.954] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  356bba5c-a514-49b1-be14-dcd55e46d7d3
+[2025-05-14 16:26:15.954] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  57256ae5-b50b-4633-9df1-25f15dcd5890
+[2025-05-14 16:26:15.954] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get b1fef3a6-0c7e-4437-912f-507f843cbb5f
+[2025-05-14 16:26:15.955] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  25ff1f1f-4e63-40f5-b40b-fd47f5eb0720
+[2025-05-14 16:26:15.956] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  6df28d16-0772-4292-83bb-4fcd20dafcd2
+[2025-05-14 16:26:15.956] [info]  (settings-plugin)            get {"id":10,"createdAt":"2025-04-29T19:37:31.000Z","updatedAt":"2025-04-29T19:37:31.000Z","_userValue":"name","defaultValue":"name","valueType":0,"version":0,"key":"connectionsSortBy","linuxDefault":null,"macDefault":null,"windowsDefault":null,"value":"name"}
+[2025-05-14 16:26:15.956] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  c66c89d9-d85b-4011-9842-0ef9d0b0e8cf
+[2025-05-14 16:26:15.956] [info]  (settings-plugin)            get {"id":11,"createdAt":"2025-04-29T19:37:31.000Z","updatedAt":"2025-04-29T19:37:31.000Z","_userValue":"asc","defaultValue":"asc","valueType":0,"version":0,"key":"connectionsSortOrder","linuxDefault":null,"macDefault":null,"windowsDefault":null,"value":"asc"}
+[2025-05-14 16:26:15.956] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  7cd519c0-a6ec-4836-b646-9d14b186b0ac
+[2025-05-14 16:26:15.956] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/saved/new c51942ee-1ad6-400f-9888-c293ab92cfb4
+[2025-05-14 16:26:15.957] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/pinconn/find b482ae1c-fd7a-4499-a6fe-88d2cbd3b022
+[2025-05-14 16:26:15.963] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  b1fef3a6-0c7e-4437-912f-507f843cbb5f
+[2025-05-14 16:26:15.964] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  c51942ee-1ad6-400f-9888-c293ab92cfb4
+[2025-05-14 16:26:15.966] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  b482ae1c-fd7a-4499-a6fe-88d2cbd3b022
+[2025-05-14 16:26:15.966] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/pinconn/save 35b6f03c-8892-4240-a449-d4e0b6ec975f
+[2025-05-14 16:26:15.968] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  35b6f03c-8892-4240-a449-d4e0b6ec975f
+[2025-05-14 16:26:15.968] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/credential/find 7774230f-3a68-4973-b559-b5ad9efdc9b0
+[2025-05-14 16:26:15.969] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  7774230f-3a68-4973-b559-b5ad9efdc9b0
+[2025-05-14 16:26:18.190] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/saved/new aad70ff4-bde1-414f-8e14-2904467bbb56
+[2025-05-14 16:26:18.217] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  aad70ff4-bde1-414f-8e14-2904467bbb56
+[2025-05-14 16:26:18.377] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/create 2901e60b-2795-4c4b-bb44-c2a906eef28c
+[2025-05-14 16:26:18.443] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  2901e60b-2795-4c4b-bb44-c2a906eef28c
+[2025-05-14 16:26:18.443] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/defaultSchema d3bf0d16-4f13-443f-a822-aa2a73411577
+[2025-05-14 16:26:18.444] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d3bf0d16-4f13-443f-a822-aa2a73411577
+[2025-05-14 16:26:18.444] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/supportedFeatures a5a30605-4985-4cf6-82de-2f3b8174ae64
+[2025-05-14 16:26:18.445] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  a5a30605-4985-4cf6-82de-2f3b8174ae64
+[2025-05-14 16:26:18.445] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/defaultSchema 76815e89-06f4-4399-b56f-3081b3451da6
+[2025-05-14 16:26:18.445] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  76815e89-06f4-4399-b56f-3081b3451da6
+[2025-05-14 16:26:18.445] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/getServerConfig d605cee8-f426-4959-87e1-475b3ffa5973
+[2025-05-14 16:26:18.446] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d605cee8-f426-4959-87e1-475b3ffa5973
+[2025-05-14 16:26:18.448] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listDatabases 7420727a-2891-4bca-bc71-dcb230e319ef
+[2025-05-14 16:26:18.448] [info]  (app.vue)                    database changed suasor
+[2025-05-14 16:26:18.453] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/pins/find 59230fef-c9d6-4015-b95c-f7abbf430e12
+[2025-05-14 16:26:18.453] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/hiddenEntity/find 0657a7de-be01-45a7-be10-6be3c850185e
+[2025-05-14 16:26:18.471] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/get d6c0edc0-7d3c-4642-93bd-f185bcc967f9
+[2025-05-14 16:26:18.471] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/get c99bf3d1-8649-4bfb-be9b-7e7faec9ba22
+[2025-05-14 16:26:18.474] [info]  (TabModule)                  Loading tabs for  -1 2
+[2025-05-14 16:26:18.474] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/find f8c1519b-7e38-4530-a55e-6832b1818681
+[2025-05-14 16:26:18.479] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  7420727a-2891-4bca-bc71-dcb230e319ef
+[2025-05-14 16:26:18.479] [debug] (StateManager)               removing from search index 0
+[2025-05-14 16:26:18.479] [debug] (StateManager)               adding to search index 1
+[2025-05-14 16:26:18.480] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTables 14f5d2cf-89af-43f3-bdea-23926ee37fdf
+[2025-05-14 16:26:18.481] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  59230fef-c9d6-4015-b95c-f7abbf430e12
+[2025-05-14 16:26:18.481] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  0657a7de-be01-45a7-be10-6be3c850185e
+[2025-05-14 16:26:18.481] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/hiddenSchema/find 27e6dcd6-bf63-437c-a2d4-ef5d71581010
+[2025-05-14 16:26:18.481] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d6c0edc0-7d3c-4642-93bd-f185bcc967f9
+[2025-05-14 16:26:18.481] [info]  (settings-plugin)            get {"id":13,"createdAt":"2025-04-29T19:39:00.493Z","updatedAt":"2025-04-29T19:39:00.493Z","_userValue":"position","defaultValue":"position","valueType":0,"version":1,"key":"pinSortField","linuxDefault":null,"macDefault":null,"windowsDefault":null,"value":"position"}
+[2025-05-14 16:26:18.481] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  c99bf3d1-8649-4bfb-be9b-7e7faec9ba22
+[2025-05-14 16:26:18.481] [info]  (settings-plugin)            get {"id":14,"createdAt":"2025-04-29T19:39:00.499Z","updatedAt":"2025-04-29T19:39:00.499Z","_userValue":"asc","defaultValue":"asc","valueType":0,"version":1,"key":"pinSortOrder","linuxDefault":null,"macDefault":null,"windowsDefault":null,"value":"asc"}
+[2025-05-14 16:26:18.481] [info]  (settings-plugin)            set pinSortField position
+[2025-05-14 16:26:18.481] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/set 7fd226f5-c3ae-4cb9-a33b-aa2003250426
+[2025-05-14 16:26:18.482] [info]  (settings-plugin)            set pinSortOrder asc
+[2025-05-14 16:26:18.482] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/set f9e8568b-8e40-4539-825d-5ec8d5718d33
+[2025-05-14 16:26:18.482] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  f8c1519b-7e38-4530-a55e-6832b1818681
+[2025-05-14 16:26:18.547] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  27e6dcd6-bf63-437c-a2d4-ef5d71581010
+[2025-05-14 16:26:18.548] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  7fd226f5-c3ae-4cb9-a33b-aa2003250426
+[2025-05-14 16:26:18.548] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  f9e8568b-8e40-4539-825d-5ec8d5718d33
+[2025-05-14 16:26:18.548] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  14f5d2cf-89af-43f3-bdea-23926ee37fdf
+[2025-05-14 16:26:18.548] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listViews 0d6a6cda-986f-4ccf-9c57-144952fc44ac
+[2025-05-14 16:26:18.552] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  0d6a6cda-986f-4ccf-9c57-144952fc44ac
+[2025-05-14 16:26:18.552] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listMaterializedViews bce0b151-6ecf-4587-bad8-86dec9246b9c
+[2025-05-14 16:26:18.555] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  bce0b151-6ecf-4587-bad8-86dec9246b9c
+[2025-05-14 16:26:18.557] [debug] (StateManager)               removing from search index 0
+[2025-05-14 16:26:18.557] [debug] (StateManager)               adding to search index 226
+[2025-05-14 16:26:18.577] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'clients',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.593] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_items',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.599] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_items',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.600] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'user_media_item_data',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.605] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_sync_jobs',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.610] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_conversations',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.614] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_messages',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.622] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_conversation_analytics',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.676] [debug] (store/index)                actions/updateTableColumns ai_conversation_analytics
+[2025-05-14 16:26:18.676] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns be32d147-b168-4536-9d3a-e085774ef7bd
+[2025-05-14 16:26:18.679] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listRoutines a4c028d2-5986-4847-bd40-185370b8a836
+[2025-05-14 16:26:18.702] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  be32d147-b168-4536-9d3a-e085774ef7bd
+[2025-05-14 16:26:18.702] [debug] (store/index)                Should I update table columns? [
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'conversation_id',
+    dataType: 'varchar(36)',
+    nullable: false,
+    defaultValue: null,
+    ordinalPosition: 1,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'conversation_id', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'total_user_messages',
+    dataType: 'int8(64,0)',
+    nullable: true,
+    defaultValue: '0',
+    ordinalPosition: 2,
+    hasDefault: true,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'total_user_messages', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'total_assistant_messages',
+    dataType: 'int8(64,0)',
+    nullable: true,
+    defaultValue: '0',
+    ordinalPosition: 3,
+    hasDefault: true,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'total_assistant_messages', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'total_recommendations',
+    dataType: 'int8(64,0)',
+    nullable: true,
+    defaultValue: '0',
+    ordinalPosition: 4,
+    hasDefault: true,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'total_recommendations', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'selected_recommendations',
+    dataType: 'int8(64,0)',
+    nullable: true,
+    defaultValue: '0',
+    ordinalPosition: 5,
+    hasDefault: true,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'selected_recommendations', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'total_tokens_used',
+    dataType: 'int8(64,0)',
+    nullable: true,
+    defaultValue: '0',
+    ordinalPosition: 6,
+    hasDefault: true,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'total_tokens_used', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'average_response_time',
+    dataType: 'numeric',
+    nullable: true,
+    defaultValue: '0',
+    ordinalPosition: 7,
+    hasDefault: true,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'average_response_time', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'conversation_duration',
+    dataType: 'int8(64,0)',
+    nullable: true,
+    defaultValue: '0',
+    ordinalPosition: 8,
+    hasDefault: true,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'conversation_duration', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'ai_conversation_analytics',
+    columnName: 'last_updated_at',
+    dataType: 'timestamptz(6)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 9,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'last_updated_at', bksType: 'UNKNOWN' }
+  }
+]
+[2025-05-14 16:26:18.704] [debug] (StateManager)               removing from search index 0
+[2025-05-14 16:26:18.704] [debug] (StateManager)               adding to search index 0
+[2025-05-14 16:26:18.716] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'clients',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.716] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_items',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.716] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_items',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.717] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'user_media_item_data',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.717] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_sync_jobs',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.717] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_conversations',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.717] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_messages',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:18.717] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_conversation_analytics',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table',
+  columns: [
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'conversation_id',
+      dataType: 'varchar(36)',
+      nullable: false,
+      defaultValue: null,
+      ordinalPosition: 1,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'conversation_id', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'total_user_messages',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 2,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'total_user_messages', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'total_assistant_messages',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 3,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'total_assistant_messages', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'total_recommendations',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 4,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'total_recommendations', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'selected_recommendations',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 5,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'selected_recommendations', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'total_tokens_used',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 6,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'total_tokens_used', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'average_response_time',
+      dataType: 'numeric',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 7,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'average_response_time', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'conversation_duration',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 8,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'conversation_duration', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'last_updated_at',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 9,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'last_updated_at', bksType: 'UNKNOWN' }
+    }
+  ]
+}
+[2025-05-14 16:26:18.721] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/getTableKeys e7c9a075-bcb2-4d06-ba20-57983217e080
+[2025-05-14 16:26:18.727] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  a4c028d2-5986-4847-bd40-185370b8a836
+[2025-05-14 16:26:18.737] [debug] (data/usedconnections)       Recording used config for:  {
+  id: 2,
+  createdAt: '2025-04-29T19:37:40.343Z',
+  updatedAt: '2025-04-29T19:37:40.343Z',
+  version: 1,
+  connectionType: 'postgresql',
+  host: 'localhost',
+  port: 5433,
+  socketPath: '/var/run/postgresql',
+  socketPathEnabled: false,
+  username: 'postgres',
+  domain: null,
+  defaultDatabase: 'suasor',
+  url: null,
+  uniqueHash: 'DEPRECATED',
+  sshEnabled: false,
+  sshHost: null,
+  sshPort: 22,
+  sshKeyfile: null,
+  sshUsername: null,
+  sshBastionHost: null,
+  sshKeepaliveInterval: 60,
+  ssl: false,
+  sslCaFile: null,
+  sslCertFile: null,
+  sslKeyFile: null,
+  sslRejectUnauthorized: true,
+  readOnlyMode: false,
+  options: { connectionMethod: 'manual' },
+  redshiftOptions: {},
+  cassandraOptions: {},
+  bigQueryOptions: {},
+  azureAuthOptions: {},
+  authId: null,
+  libsqlOptions: { mode: 'url' },
+  trustServerCertificate: false,
+  serviceName: null,
+  name: 'Suasor',
+  labelColor: 'red',
+  workspaceId: -1,
+  rememberPassword: true,
+  password: 'password',
+  sshKeyfilePassword: null,
+  sshPassword: null,
+  sshMode: 'agent'
+}
+[2025-05-14 16:26:18.737] [debug] (data/usedconnections)       Found used config {
+  id: 1,
+  createdAt: '2025-04-29T19:39:00.663Z',
+  updatedAt: '2025-05-08T13:51:31.820Z',
+  version: 8,
+  connectionType: 'postgresql',
+  host: 'localhost',
+  port: 5433,
+  socketPath: '/var/run/postgresql',
+  socketPathEnabled: false,
+  username: 'postgres',
+  domain: null,
+  defaultDatabase: 'suasor',
+  url: null,
+  uniqueHash: 'DEPRECATED',
+  sshEnabled: false,
+  sshHost: null,
+  sshPort: 22,
+  sshKeyfile: null,
+  sshUsername: null,
+  sshBastionHost: null,
+  sshKeepaliveInterval: 60,
+  ssl: false,
+  sslCaFile: null,
+  sslCertFile: null,
+  sslKeyFile: null,
+  sslRejectUnauthorized: true,
+  readOnlyMode: false,
+  options: { connectionMethod: 'manual' },
+  redshiftOptions: {},
+  cassandraOptions: {},
+  bigQueryOptions: {},
+  azureAuthOptions: {},
+  authId: null,
+  libsqlOptions: { mode: 'url' },
+  trustServerCertificate: false,
+  serviceName: null,
+  connectionId: 2,
+  workspaceId: -1
+}
+[2025-05-14 16:26:18.737] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/used/save bcb0a8db-8933-4bb2-be17-fa720f9f7f8f
+[2025-05-14 16:26:18.738] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  e7c9a075-bcb2-4d06-ba20-57983217e080
+[2025-05-14 16:26:18.738] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/getPrimaryKeys 921945a5-75fb-448f-9e3a-9738cf2fcb81
+[2025-05-14 16:26:18.747] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  bcb0a8db-8933-4bb2-be17-fa720f9f7f8f
+[2025-05-14 16:26:18.748] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  921945a5-75fb-448f-9e3a-9738cf2fcb81
+[2025-05-14 16:26:18.777] [info]  (TableTable)                 fetch params {
+  filter: [],
+  page: 1,
+  size: 100,
+  sort: [ { field: 'conversation_id', dir: 'asc' } ]
+}
+[2025-05-14 16:26:18.777] [info]  (TableTable)                 filters []
+[2025-05-14 16:26:18.778] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/selectTop 653d548d-121e-4a2d-8467-75cc6df40aa4
+[2025-05-14 16:26:18.780] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  653d548d-121e-4a2d-8467-75cc6df40aa4
+[2025-05-14 16:26:18.781] [debug] (TableTable)                 table has changed, updating
+[2025-05-14 16:26:18.781] [debug] (store/index)                actions/updateTableColumns ai_conversation_analytics
+[2025-05-14 16:26:18.781] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns feb4befc-f0a7-44c1-ab42-008698cf5a71
+[2025-05-14 16:26:18.791] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  feb4befc-f0a7-44c1-ab42-008698cf5a71
+[2025-05-14 16:26:18.792] [debug] (store/index)                Should I update table columns? []
+[2025-05-14 16:26:18.792] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 6a854efb-1233-4c45-8ed0-79d9ad497ed1
+[2025-05-14 16:26:18.821] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  6a854efb-1233-4c45-8ed0-79d9ad497ed1
+[2025-05-14 16:26:18.983] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 6efae6dd-92f8-4fac-9bec-2acdf6465d43
+[2025-05-14 16:26:18.985] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  6efae6dd-92f8-4fac-9bec-2acdf6465d43
+[2025-05-14 16:26:19.056] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 4016f3cf-faac-4c42-bd35-e5b1ffe80121
+[2025-05-14 16:26:19.058] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  4016f3cf-faac-4c42-bd35-e5b1ffe80121
+[2025-05-14 16:26:35.822] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 1184542b-62e2-4a0c-bc26-4e4d82df2b81
+[2025-05-14 16:26:35.828] [debug] (store/index)                actions/updateTableColumns media_items
+[2025-05-14 16:26:35.828] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns f2c13f35-35bd-4e6b-baea-9047f9aa6813
+[2025-05-14 16:26:35.848] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  1184542b-62e2-4a0c-bc26-4e4d82df2b81
+[2025-05-14 16:26:35.849] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  f2c13f35-35bd-4e6b-baea-9047f9aa6813
+[2025-05-14 16:26:35.849] [debug] (store/index)                Should I update table columns? [
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'id',
+    dataType: 'int8(64,0)',
+    nullable: false,
+    defaultValue: "nextval('media_items_id_seq'::regclass)",
+    ordinalPosition: 1,
+    hasDefault: true,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'id', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'created_at',
+    dataType: 'timestamptz(6)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 2,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'created_at', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'updated_at',
+    dataType: 'timestamptz(6)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 3,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'updated_at', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'deleted_at',
+    dataType: 'timestamptz(6)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 4,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'deleted_at', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'uuid',
+    dataType: 'uuid',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 5,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'uuid', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'owner_id',
+    dataType: 'int8(64,0)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 6,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'owner_id', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'sync_clients',
+    dataType: 'jsonb',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 7,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'sync_clients', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'external_ids',
+    dataType: 'jsonb',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 8,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'external_ids', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'is_public',
+    dataType: 'bool',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 9,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'is_public', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'type',
+    dataType: 'varchar(50)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 10,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'type', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'title',
+    dataType: 'text',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 11,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'title', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'release_date',
+    dataType: 'timestamptz(6)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 12,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'release_date', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'release_year',
+    dataType: 'int8(64,0)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 13,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'release_year', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'stream_url',
+    dataType: 'varchar(1024)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 14,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'stream_url', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'download_url',
+    dataType: 'varchar(1024)',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 15,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'download_url', bksType: 'UNKNOWN' }
+  },
+  {
+    schemaName: 'public',
+    tableName: 'media_items',
+    columnName: 'data',
+    dataType: 'jsonb',
+    nullable: true,
+    defaultValue: null,
+    ordinalPosition: 16,
+    hasDefault: false,
+    generated: false,
+    array: false,
+    comment: null,
+    bksField: { name: 'data', bksType: 'UNKNOWN' }
+  }
+]
+[2025-05-14 16:26:35.853] [debug] (StateManager)               removing from search index 0
+[2025-05-14 16:26:35.853] [debug] (StateManager)               adding to search index 0
+[2025-05-14 16:26:35.879] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'clients',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:35.879] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_items',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table',
+  columns: [
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'id',
+      dataType: 'int8(64,0)',
+      nullable: false,
+      defaultValue: "nextval('media_items_id_seq'::regclass)",
+      ordinalPosition: 1,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'id', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'created_at',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 2,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'created_at', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'updated_at',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 3,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'updated_at', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'deleted_at',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 4,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'deleted_at', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'uuid',
+      dataType: 'uuid',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 5,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'uuid', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'owner_id',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 6,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'owner_id', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'sync_clients',
+      dataType: 'jsonb',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 7,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'sync_clients', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'external_ids',
+      dataType: 'jsonb',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 8,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'external_ids', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'is_public',
+      dataType: 'bool',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 9,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'is_public', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'type',
+      dataType: 'varchar(50)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 10,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'type', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'title',
+      dataType: 'text',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 11,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'title', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'release_date',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 12,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'release_date', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'release_year',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 13,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'release_year', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'stream_url',
+      dataType: 'varchar(1024)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 14,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'stream_url', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'download_url',
+      dataType: 'varchar(1024)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 15,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'download_url', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'data',
+      dataType: 'jsonb',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 16,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'data', bksType: 'UNKNOWN' }
+    }
+  ]
+}
+[2025-05-14 16:26:35.880] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_items',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table',
+  columns: [
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'id',
+      dataType: 'int8(64,0)',
+      nullable: false,
+      defaultValue: "nextval('media_items_id_seq'::regclass)",
+      ordinalPosition: 1,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'id', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'created_at',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 2,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'created_at', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'updated_at',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 3,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'updated_at', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'deleted_at',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 4,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'deleted_at', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'uuid',
+      dataType: 'uuid',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 5,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'uuid', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'owner_id',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 6,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'owner_id', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'sync_clients',
+      dataType: 'jsonb',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 7,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'sync_clients', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'external_ids',
+      dataType: 'jsonb',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 8,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'external_ids', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'is_public',
+      dataType: 'bool',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 9,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'is_public', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'type',
+      dataType: 'varchar(50)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 10,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'type', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'title',
+      dataType: 'text',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 11,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'title', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'release_date',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 12,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'release_date', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'release_year',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 13,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'release_year', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'stream_url',
+      dataType: 'varchar(1024)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 14,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'stream_url', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'download_url',
+      dataType: 'varchar(1024)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 15,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'download_url', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'media_items',
+      columnName: 'data',
+      dataType: 'jsonb',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 16,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'data', bksType: 'UNKNOWN' }
+    }
+  ]
+}
+[2025-05-14 16:26:35.882] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'user_media_item_data',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:35.882] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'media_sync_jobs',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:35.882] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_conversations',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:35.883] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_messages',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table'
+}
+[2025-05-14 16:26:35.883] [debug] (TabWithTable)               table changed! {
+  schema: 'public',
+  name: 'ai_conversation_analytics',
+  tabletype: 'r',
+  parenttype: null,
+  entityType: 'table',
+  columns: [
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'conversation_id',
+      dataType: 'varchar(36)',
+      nullable: false,
+      defaultValue: null,
+      ordinalPosition: 1,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'conversation_id', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'total_user_messages',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 2,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'total_user_messages', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'total_assistant_messages',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 3,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'total_assistant_messages', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'total_recommendations',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 4,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'total_recommendations', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'selected_recommendations',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 5,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'selected_recommendations', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'total_tokens_used',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 6,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'total_tokens_used', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'average_response_time',
+      dataType: 'numeric',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 7,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'average_response_time', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'conversation_duration',
+      dataType: 'int8(64,0)',
+      nullable: true,
+      defaultValue: '0',
+      ordinalPosition: 8,
+      hasDefault: true,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'conversation_duration', bksType: 'UNKNOWN' }
+    },
+    {
+      schemaName: 'public',
+      tableName: 'ai_conversation_analytics',
+      columnName: 'last_updated_at',
+      dataType: 'timestamptz(6)',
+      nullable: true,
+      defaultValue: null,
+      ordinalPosition: 9,
+      hasDefault: false,
+      generated: false,
+      array: false,
+      comment: null,
+      bksField: { name: 'last_updated_at', bksType: 'UNKNOWN' }
+    }
+  ]
+}
+[2025-05-14 16:26:35.889] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/getTableKeys b00d8a89-0acf-4946-9d1e-b25a3995e70a
+[2025-05-14 16:26:35.899] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  b00d8a89-0acf-4946-9d1e-b25a3995e70a
+[2025-05-14 16:26:35.900] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/getPrimaryKeys 25ec1c90-aad0-4585-a661-e49505592456
+[2025-05-14 16:26:35.902] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  25ec1c90-aad0-4585-a661-e49505592456
+[2025-05-14 16:26:35.940] [info]  (TableTable)                 fetch params {
+  filter: [],
+  page: 1,
+  size: 100,
+  sort: [ { field: 'id', dir: 'asc' } ]
+}
+[2025-05-14 16:26:35.940] [info]  (TableTable)                 filters [ { op: 'AND', field: 'type', type: '=', value: 'movie' } ]
+[2025-05-14 16:26:35.940] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/selectTop 73c6a590-61e4-4d25-aab9-d861bc4576e1
+[2025-05-14 16:26:35.953] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  73c6a590-61e4-4d25-aab9-d861bc4576e1
+[2025-05-14 16:26:35.953] [debug] (TableTable)                 table has changed, updating
+[2025-05-14 16:26:35.953] [debug] (store/index)                actions/updateTableColumns media_items
+[2025-05-14 16:26:35.953] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns 5276cb76-b4a5-4f04-a24c-e76e0410cbbe
+[2025-05-14 16:26:35.965] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  5276cb76-b4a5-4f04-a24c-e76e0410cbbe
+[2025-05-14 16:26:35.967] [debug] (store/index)                Should I update table columns? []
+[2025-05-14 16:26:35.980] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 61451bf4-71a9-4524-8808-ad108dc67418
+[2025-05-14 16:26:36.185] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  61451bf4-71a9-4524-8808-ad108dc67418
+[2025-05-14 16:26:36.208] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save b1eb2a2a-e524-414e-80ce-cff6cc87ad6e
+[2025-05-14 16:26:36.211] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  b1eb2a2a-e524-414e-80ce-cff6cc87ad6e
+[2025-05-14 16:26:36.323] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 26a0e604-77c8-460b-a423-f95883ba395e
+[2025-05-14 16:26:36.325] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  26a0e604-77c8-460b-a423-f95883ba395e
+[2025-05-14 16:26:40.359] [info]  (TableTable)                 fetch params {
+  filter: [],
+  page: 1,
+  size: 100,
+  sort: [ { field: 'id', dir: 'desc' } ]
+}
+[2025-05-14 16:26:40.359] [info]  (TableTable)                 filters [ { op: 'AND', field: 'type', type: '=', value: 'movie' } ]
+[2025-05-14 16:26:40.359] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/selectTop 80106455-f035-40de-818c-55d7d5251339
+[2025-05-14 16:26:40.373] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  80106455-f035-40de-818c-55d7d5251339
+[2025-05-14 16:26:40.373] [debug] (TableTable)                 table has changed, updating
+[2025-05-14 16:26:40.373] [debug] (store/index)                actions/updateTableColumns media_items
+[2025-05-14 16:26:40.373] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns 9c917084-28ba-402c-ad42-d46f315656ed
+[2025-05-14 16:26:40.388] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  9c917084-28ba-402c-ad42-d46f315656ed
+[2025-05-14 16:26:40.390] [debug] (store/index)                Should I update table columns? []
+[2025-05-14 16:26:40.398] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 538ef313-2c7a-4d41-9f37-48be5d8e0136
+[2025-05-14 16:26:40.612] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  538ef313-2c7a-4d41-9f37-48be5d8e0136
+[2025-05-14 16:26:41.119] [info]  (TableTable)                 fetch params {
+  filter: [],
+  page: 1,
+  size: 100,
+  sort: [ { field: 'id', dir: 'asc' } ]
+}
+[2025-05-14 16:26:41.119] [info]  (TableTable)                 filters [ { op: 'AND', field: 'type', type: '=', value: 'movie' } ]
+[2025-05-14 16:26:41.119] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/selectTop 67b54ce6-11d4-4300-bbb2-baf4f6ced5d0
+[2025-05-14 16:26:41.132] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  67b54ce6-11d4-4300-bbb2-baf4f6ced5d0
+[2025-05-14 16:26:41.132] [debug] (TableTable)                 table has changed, updating
+[2025-05-14 16:26:41.132] [debug] (store/index)                actions/updateTableColumns media_items
+[2025-05-14 16:26:41.132] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns 3fcf0f1b-ba6b-463e-9d50-30550b61c06e
+[2025-05-14 16:26:41.143] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  3fcf0f1b-ba6b-463e-9d50-30550b61c06e
+[2025-05-14 16:26:41.145] [debug] (store/index)                Should I update table columns? []
+[2025-05-14 16:26:41.153] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 14c28a41-1e2d-4267-b35c-4807536239ba
+[2025-05-14 16:26:41.399] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  14c28a41-1e2d-4267-b35c-4807536239ba
+[2025-05-14 16:26:41.883] [info]  (TableTable)                 fetch params {
+  filter: [],
+  page: 1,
+  size: 100,
+  sort: [ { field: 'id', dir: 'desc' } ]
+}
+[2025-05-14 16:26:41.883] [info]  (TableTable)                 filters [ { op: 'AND', field: 'type', type: '=', value: 'movie' } ]
+[2025-05-14 16:26:41.883] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/selectTop 78e5799e-c03e-4f3f-a4c6-2f8e3f69f9ab
+[2025-05-14 16:26:41.895] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  78e5799e-c03e-4f3f-a4c6-2f8e3f69f9ab
+[2025-05-14 16:26:41.895] [debug] (TableTable)                 table has changed, updating
+[2025-05-14 16:26:41.895] [debug] (store/index)                actions/updateTableColumns media_items
+[2025-05-14 16:26:41.896] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns 066385dc-435a-4a36-8342-b81a873643ab
+[2025-05-14 16:26:41.904] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  066385dc-435a-4a36-8342-b81a873643ab
+[2025-05-14 16:26:41.905] [debug] (store/index)                Should I update table columns? []
+[2025-05-14 16:26:41.909] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 709298fb-89cd-4ec9-bfe9-9d387ee11b78
+[2025-05-14 16:26:42.111] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  709298fb-89cd-4ec9-bfe9-9d387ee11b78
+[2025-05-14 16:26:53.864] [info]  (TableTable)                 fetch params {
+  filter: [],
+  page: 1,
+  size: 100,
+  sort: [ { field: 'id', dir: 'desc' } ]
+}
+[2025-05-14 16:26:53.864] [info]  (TableTable)                 filters [ { op: 'AND', field: 'type', type: '=', value: 'playlist' } ]
+[2025-05-14 16:26:53.865] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/selectTop 7879b8cc-3380-406f-8289-737bd724e026
+[2025-05-14 16:26:53.876] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  7879b8cc-3380-406f-8289-737bd724e026
+[2025-05-14 16:26:53.876] [debug] (TableTable)                 table has changed, updating
+[2025-05-14 16:26:53.876] [debug] (store/index)                actions/updateTableColumns media_items
+[2025-05-14 16:26:53.876] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns 8a4b3d9a-0f12-4db1-b9ad-3842f2f40620
+[2025-05-14 16:26:53.890] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  8a4b3d9a-0f12-4db1-b9ad-3842f2f40620
+[2025-05-14 16:26:53.892] [debug] (store/index)                Should I update table columns? []
+[2025-05-14 16:26:53.907] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save fed7a417-65ce-48dc-94d6-0ebff1da9ad8
+[2025-05-14 16:26:54.161] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  fed7a417-65ce-48dc-94d6-0ebff1da9ad8
+[2025-05-14 16:26:54.161] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 3bf77db0-55ec-4e2e-9e13-90bd879ce194
+[2025-05-14 16:26:54.165] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  3bf77db0-55ec-4e2e-9e13-90bd879ce194
+[2025-05-14 16:26:54.175] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 788bd9b2-e79f-4e73-9504-002bc868822f
+[2025-05-14 16:26:54.177] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  788bd9b2-e79f-4e73-9504-002bc868822f
+[2025-05-14 16:27:01.841] [info]  (TableTable)                 fetch params {
+  filter: [],
+  page: 1,
+  size: 100,
+  sort: [ { field: 'id', dir: 'asc' } ]
+}
+[2025-05-14 16:27:01.841] [info]  (TableTable)                 filters [ { op: 'AND', field: 'type', type: '=', value: 'playlist' } ]
+[2025-05-14 16:27:01.841] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/selectTop 1d94889d-2947-46d2-9e58-5007e368392a
+[2025-05-14 16:27:01.900] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  1d94889d-2947-46d2-9e58-5007e368392a
+[2025-05-14 16:27:01.901] [debug] (TableTable)                 table has changed, updating
+[2025-05-14 16:27:01.901] [debug] (store/index)                actions/updateTableColumns media_items
+[2025-05-14 16:27:01.901] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns 22a41172-6cf7-4598-a2b8-9d8ade8b32b7
+[2025-05-14 16:27:01.911] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  22a41172-6cf7-4598-a2b8-9d8ade8b32b7
+[2025-05-14 16:27:01.913] [debug] (store/index)                Should I update table columns? []
+[2025-05-14 16:27:01.921] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save 116ddf3f-c06a-4981-9370-f0e10ae6b305
+[2025-05-14 16:27:02.193] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  116ddf3f-c06a-4981-9370-f0e10ae6b305
+[2025-05-14 16:27:02.942] [info]  (TableTable)                 fetch params {
+  filter: [],
+  page: 1,
+  size: 100,
+  sort: [ { field: 'id', dir: 'desc' } ]
+}
+[2025-05-14 16:27:02.942] [info]  (TableTable)                 filters [ { op: 'AND', field: 'type', type: '=', value: 'playlist' } ]
+[2025-05-14 16:27:02.942] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/selectTop d19a06f7-1f49-4114-a8b0-cf491b875aba
+[2025-05-14 16:27:02.955] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d19a06f7-1f49-4114-a8b0-cf491b875aba
+[2025-05-14 16:27:02.955] [debug] (TableTable)                 table has changed, updating
+[2025-05-14 16:27:02.955] [debug] (store/index)                actions/updateTableColumns media_items
+[2025-05-14 16:27:02.956] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  conn/listTableColumns ed48735d-d690-45f7-ba5f-4ea26a30b082
+[2025-05-14 16:27:02.964] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  ed48735d-d690-45f7-ba5f-4ea26a30b082
+[2025-05-14 16:27:02.966] [debug] (store/index)                Should I update table columns? []
+[2025-05-14 16:27:02.972] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/tabs/save b0ee25e2-1cb0-49a8-923a-a84cf230706c
+[2025-05-14 16:27:03.211] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  b0ee25e2-1cb0-49a8-923a-a84cf230706c
+[2025-05-14 16:27:39.039] [debug] (ClientMenuActionHandler)    Sending menu action to electron thread enterLicense undefined
+[2025-05-14 16:27:39.087] [debug] (AppEventHandler)            Received from electron, forwarding to app enter_license
+[2025-05-14 16:56:54.686] [info]                        initializing background
+[2025-05-14 16:56:57.074] [info]  (main.ts) starting logging
+[2025-05-14 16:56:57.077] [debug] (main.ts) APP BOOTING
+[2025-05-14 16:56:57.077] [debug] (main.ts) ####################################
+[2025-05-14 16:56:57.077] [debug] (main.ts) Platform Information (App)
+[2025-05-14 16:56:57.077] [debug] (main.ts) {
+  "isWindows": false,
+  "isMac": false,
+  "isArm": true,
+  "oracleSupported": true,
+  "parsedArgs": {
+    "_": [],
+    "sandbox": false
+  },
+  "isLinux": true,
+  "sessionType": "wayland",
+  "isWayland": false,
+  "isPortable": false,
+  "isDevelopment": false,
+  "isAppImage": false,
+  "resourcesPath": "/tmp/.mount_Beekee6lEbLJ/resources",
+  "env": {
+    "development": false,
+    "test": false,
+    "production": true
+  },
+  "debugEnabled": false,
+  "platform": "linux",
+  "darkMode": false,
+  "userDirectory": "/home/faiyt/.config/beekeeper-studio",
+  "downloadsDirectory": "/home/faiyt/Downloads",
+  "homeDirectory": "/home/faiyt",
+  "pluginsDirectory": "/home/faiyt/.config/beekeeper-studio/plugins",
+  "testMode": false,
+  "appDbPath": "/home/faiyt/.config/beekeeper-studio/app.db",
+  "updatesDisabled": false,
+  "appVersion": "5.1.5",
+  "parsedAppVersion": {
+    "major": 5,
+    "minor": 1,
+    "patch": 5,
+    "channel": "stable"
+  },
+  "cloudUrl": "https://app.beekeeperstudio.io",
+  "locale": ""
+}
+[2025-05-14 16:56:57.079] [info]  (renderer/utilityconnection) QUEUEING REQUEST FOR NAME, ID:  license/getStatus 3d812918-a3ba-4b9e-b39f-6952d6e82105
+[2025-05-14 16:56:57.086] [info]  (main.ts)                    Received port in renderer with sId:  c61c3413-85c0-487a-9d4a-f1ef4968d326
+[2025-05-14 16:56:57.086] [info]  (renderer/utilityconnection) RECEIVED PORT IN UtilityConnection:  {}
+[2025-05-14 16:56:57.086] [info]  (renderer/utilityconnection) PROCESSING QUEUED REQUEST:  license/getStatus 3d812918-a3ba-4b9e-b39f-6952d6e82105
+[2025-05-14 16:56:57.086] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/find 52349f4b-c53b-48cb-b952-0ee31ea36727
+[2025-05-14 16:56:57.091] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  3d812918-a3ba-4b9e-b39f-6952d6e82105
+[2025-05-14 16:56:57.091] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get acabd093-8c0a-4e49-b769-5da7b2f7f624
+[2025-05-14 16:56:57.092] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  52349f4b-c53b-48cb-b952-0ee31ea36727
+[2025-05-14 16:56:57.092] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  acabd093-8c0a-4e49-b769-5da7b2f7f624
+[2025-05-14 16:56:57.092] [info]  (renderer/utilityconnection) ADDED LISTENER:  enumFileChanged d3d1e493-aa09-4b1a-99b6-53d0216ec036
+[2025-05-14 16:56:57.092] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  enum/init 40cfd755-cc45-4130-8e54-24c5d37ea5d3
+[2025-05-14 16:56:57.093] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  40cfd755-cc45-4130-8e54-24c5d37ea5d3
+[2025-05-14 16:56:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  enum/load 76577b13-7c9d-4257-ab8b-9521d4db3dc4
+[2025-05-14 16:56:57.093] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  76577b13-7c9d-4257-ab8b-9521d4db3dc4
+[2025-05-14 16:56:57.136] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/query/find 603f651c-42e3-45df-9b43-6e0030d7e8bb
+[2025-05-14 16:56:57.138] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/saved/find 4edc563a-5356-4359-b560-45c00f7b682f
+[2025-05-14 16:56:57.138] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/usedQuery/find e9269b67-53ef-4706-9772-b1d62464156e
+[2025-05-14 16:56:57.139] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/used/find c54681f5-f928-4a52-b27b-e6029ccfdea6
+[2025-05-14 16:56:57.139] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 689efcdf-ff79-437f-91a6-a9bf9e266991
+[2025-05-14 16:56:57.170] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/credential/find 91cb8aa5-5d9e-4c35-b876-a9fade164e1a
+[2025-05-14 16:56:57.263] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/get 67689e8c-7cfd-4307-a1e1-8c6c8683468d
+[2025-05-14 16:56:57.263] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/setting/get 4015807c-8d34-44c2-8abc-6287086a66ce
+[2025-05-14 16:56:57.265] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/saved/new 5c676418-b164-441b-beef-65df5dda9faf
+[2025-05-14 16:56:57.334] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  603f651c-42e3-45df-9b43-6e0030d7e8bb
+[2025-05-14 16:56:57.334] [debug] (StateManager)               removing from search index 0
+[2025-05-14 16:56:57.335] [debug] (StateManager)               adding to search index 1
+[2025-05-14 16:56:57.335] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  4edc563a-5356-4359-b560-45c00f7b682f
+[2025-05-14 16:56:57.337] [debug] (StateManager)               removing from search index 0
+[2025-05-14 16:56:57.337] [debug] (StateManager)               adding to search index 2
+[2025-05-14 16:56:57.340] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  e9269b67-53ef-4706-9772-b1d62464156e
+[2025-05-14 16:56:57.340] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  c54681f5-f928-4a52-b27b-e6029ccfdea6
+[2025-05-14 16:56:57.342] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  689efcdf-ff79-437f-91a6-a9bf9e266991
+[2025-05-14 16:56:57.342] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get a8e3d2fa-4fc9-4a6b-a13d-24720cafdf57
+[2025-05-14 16:56:57.342] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  91cb8aa5-5d9e-4c35-b876-a9fade164e1a
+[2025-05-14 16:56:57.344] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  67689e8c-7cfd-4307-a1e1-8c6c8683468d
+[2025-05-14 16:56:57.344] [info]  (settings-plugin)            get {"id":10,"createdAt":"2025-04-29T19:37:31.000Z","updatedAt":"2025-04-29T19:37:31.000Z","_userValue":"name","defaultValue":"name","valueType":0,"version":0,"key":"connectionsSortBy","linuxDefault":null,"macDefault":null,"windowsDefault":null,"value":"name"}
+[2025-05-14 16:56:57.344] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  4015807c-8d34-44c2-8abc-6287086a66ce
+[2025-05-14 16:56:57.345] [info]  (settings-plugin)            get {"id":11,"createdAt":"2025-04-29T19:37:31.000Z","updatedAt":"2025-04-29T19:37:31.000Z","_userValue":"asc","defaultValue":"asc","valueType":0,"version":0,"key":"connectionsSortOrder","linuxDefault":null,"macDefault":null,"windowsDefault":null,"value":"asc"}
+[2025-05-14 16:56:57.345] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  5c676418-b164-441b-beef-65df5dda9faf
+[2025-05-14 16:56:57.345] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/saved/new 99c5edde-984a-40e0-8d1f-76c0d8849f7f
+[2025-05-14 16:56:57.346] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/pinconn/find 7dc46f10-f5b7-4380-affc-e1b50ec688de
+[2025-05-14 16:56:57.358] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  a8e3d2fa-4fc9-4a6b-a13d-24720cafdf57
+[2025-05-14 16:56:57.361] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  99c5edde-984a-40e0-8d1f-76c0d8849f7f
+[2025-05-14 16:56:57.363] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  7dc46f10-f5b7-4380-affc-e1b50ec688de
+[2025-05-14 16:56:57.363] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/pinconn/save 9ed96cf7-d729-4985-91ac-b3f2a3cd1f91
+[2025-05-14 16:56:57.365] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  9ed96cf7-d729-4985-91ac-b3f2a3cd1f91
+[2025-05-14 16:56:57.365] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/credential/find 3ba578b1-8807-4048-8d70-781943824c52
+[2025-05-14 16:56:57.366] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  3ba578b1-8807-4048-8d70-781943824c52
+[2025-05-14 16:56:59.758] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  appdb/saved/new fdef2e16-ad75-47e0-b5c2-92506387a7de
+[2025-05-14 16:56:59.785] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  fdef2e16-ad75-47e0-b5c2-92506387a7de
+[2025-05-14 17:06:57.124] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus d5e7d998-4b72-44c8-8865-2298c4fcd67d
+[2025-05-14 17:06:57.125] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus bf289899-d4b5-4d5d-a4a6-e9b4ecc94af2
+[2025-05-14 17:06:57.128] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d5e7d998-4b72-44c8-8865-2298c4fcd67d
+[2025-05-14 17:06:57.128] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 75f45068-5363-4723-aa8f-97a43e57ba99
+[2025-05-14 17:06:57.129] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  bf289899-d4b5-4d5d-a4a6-e9b4ecc94af2
+[2025-05-14 17:06:57.129] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 073ab650-df45-4d63-819e-da28d1aee67a
+[2025-05-14 17:06:57.129] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  75f45068-5363-4723-aa8f-97a43e57ba99
+[2025-05-14 17:06:57.134] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  073ab650-df45-4d63-819e-da28d1aee67a
+[2025-05-14 17:06:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus d9d63d21-b1a8-41ff-a159-b0eb7b77dd1c
+[2025-05-14 17:06:57.140] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d9d63d21-b1a8-41ff-a159-b0eb7b77dd1c
+[2025-05-14 17:06:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 367e3e92-0ebf-4279-87de-0dba48f1762f
+[2025-05-14 17:06:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  367e3e92-0ebf-4279-87de-0dba48f1762f
+[2025-05-14 17:16:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 4d02d472-3c7e-43d4-965d-4a66169348b3
+[2025-05-14 17:16:57.125] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  4d02d472-3c7e-43d4-965d-4a66169348b3
+[2025-05-14 17:16:57.125] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get bac6828a-4860-4f04-aad5-76d53519849c
+[2025-05-14 17:16:57.125] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 0f4af26a-8b9e-477b-859b-27e951630acd
+[2025-05-14 17:16:57.126] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  bac6828a-4860-4f04-aad5-76d53519849c
+[2025-05-14 17:16:57.130] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  0f4af26a-8b9e-477b-859b-27e951630acd
+[2025-05-14 17:16:57.130] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get c044c2e8-5445-4d96-ad1a-72ada5bd6669
+[2025-05-14 17:16:57.131] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  c044c2e8-5445-4d96-ad1a-72ada5bd6669
+[2025-05-14 17:16:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus af049a82-4276-4635-a3e6-958a3d769dd9
+[2025-05-14 17:16:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  af049a82-4276-4635-a3e6-958a3d769dd9
+[2025-05-14 17:16:57.141] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 89b623f3-7a13-4302-8345-5a2893701261
+[2025-05-14 17:16:57.142] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  89b623f3-7a13-4302-8345-5a2893701261
+[2025-05-14 17:26:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 33c02ea0-5abe-460d-9b27-179613e06cef
+[2025-05-14 17:26:57.125] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  33c02ea0-5abe-460d-9b27-179613e06cef
+[2025-05-14 17:26:57.125] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get e0d8448f-acb5-4d66-b6d9-f02c717c9835
+[2025-05-14 17:26:57.125] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus c67e6947-e822-4ca8-a7d9-da29c24805aa
+[2025-05-14 17:26:57.126] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  e0d8448f-acb5-4d66-b6d9-f02c717c9835
+[2025-05-14 17:26:57.130] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  c67e6947-e822-4ca8-a7d9-da29c24805aa
+[2025-05-14 17:26:57.131] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 6b72d9e6-07f1-4f93-8a1d-911a797723d8
+[2025-05-14 17:26:57.131] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  6b72d9e6-07f1-4f93-8a1d-911a797723d8
+[2025-05-14 17:26:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 36873992-7f4b-41ce-bdc9-70460398a2f6
+[2025-05-14 17:26:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  36873992-7f4b-41ce-bdc9-70460398a2f6
+[2025-05-14 17:26:57.141] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get abbfde63-6792-45e8-abe4-233071ac7c50
+[2025-05-14 17:26:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  abbfde63-6792-45e8-abe4-233071ac7c50
+[2025-05-14 17:36:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 58554abd-3453-40b6-ac36-253922d01557
+[2025-05-14 17:36:57.095] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  58554abd-3453-40b6-ac36-253922d01557
+[2025-05-14 17:36:57.095] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get e13c5017-4cf9-4325-807c-debd63b1c401
+[2025-05-14 17:36:57.123] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  e13c5017-4cf9-4325-807c-debd63b1c401
+[2025-05-14 17:36:57.127] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 279fa6d0-a17f-4bd0-92dc-cebe9a865ffe
+[2025-05-14 17:36:57.128] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  279fa6d0-a17f-4bd0-92dc-cebe9a865ffe
+[2025-05-14 17:36:57.128] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 0cf9c661-e1fb-4978-add1-d08f6554dc86
+[2025-05-14 17:36:57.130] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  0cf9c661-e1fb-4978-add1-d08f6554dc86
+[2025-05-14 17:36:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 8535af17-4d1a-4661-8041-570d4c0807ac
+[2025-05-14 17:36:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  8535af17-4d1a-4661-8041-570d4c0807ac
+[2025-05-14 17:36:57.141] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get a04291fa-dc89-43ee-b914-c239d328523a
+[2025-05-14 17:36:57.142] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  a04291fa-dc89-43ee-b914-c239d328523a
+[2025-05-14 17:46:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 91dc498f-f399-42f3-9e3b-ead54b141dda
+[2025-05-14 17:46:57.094] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  91dc498f-f399-42f3-9e3b-ead54b141dda
+[2025-05-14 17:46:57.095] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get d9b008ed-3f4c-461e-8a92-b27294546eb3
+[2025-05-14 17:46:57.123] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d9b008ed-3f4c-461e-8a92-b27294546eb3
+[2025-05-14 17:46:57.127] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 47125ced-2545-4a9e-90b8-33a62db0dd23
+[2025-05-14 17:46:57.128] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  47125ced-2545-4a9e-90b8-33a62db0dd23
+[2025-05-14 17:46:57.128] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 76d6eeff-01e8-4104-9b82-ddd6ed65b681
+[2025-05-14 17:46:57.128] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  76d6eeff-01e8-4104-9b82-ddd6ed65b681
+[2025-05-14 17:46:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 9b2dfebe-a67e-478d-bdf1-7fb7fcd22034
+[2025-05-14 17:46:57.140] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  9b2dfebe-a67e-478d-bdf1-7fb7fcd22034
+[2025-05-14 17:46:57.141] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get dcb788fb-52db-42ee-b728-217ac1518b81
+[2025-05-14 17:46:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  dcb788fb-52db-42ee-b728-217ac1518b81
+[2025-05-14 17:56:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus d8709a85-99d3-476e-8484-9a7f3b44f2b5
+[2025-05-14 17:56:57.094] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  d8709a85-99d3-476e-8484-9a7f3b44f2b5
+[2025-05-14 17:56:57.095] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get a79779c1-a7c3-43f8-be33-2d67eef2ea83
+[2025-05-14 17:56:57.125] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  a79779c1-a7c3-43f8-be33-2d67eef2ea83
+[2025-05-14 17:56:57.128] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 4679aef0-e9b3-462c-9705-5d10a6f64cdf
+[2025-05-14 17:56:57.129] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  4679aef0-e9b3-462c-9705-5d10a6f64cdf
+[2025-05-14 17:56:57.129] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get fae57546-3b27-44c4-a6a6-edd34d1b076b
+[2025-05-14 17:56:57.130] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  fae57546-3b27-44c4-a6a6-edd34d1b076b
+[2025-05-14 17:56:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 8d11b1c0-d412-401b-a5c1-b0a3b8ddad40
+[2025-05-14 17:56:57.140] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  8d11b1c0-d412-401b-a5c1-b0a3b8ddad40
+[2025-05-14 17:56:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get e365a3f4-749f-4e0b-b070-d8f1f94c706c
+[2025-05-14 17:56:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  e365a3f4-749f-4e0b-b070-d8f1f94c706c
+[2025-05-14 18:06:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 97b10682-4a00-4394-b697-39e08e3346d9
+[2025-05-14 18:06:57.094] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  97b10682-4a00-4394-b697-39e08e3346d9
+[2025-05-14 18:06:57.094] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 77c21b27-2ca4-48df-b3bd-73208f18c459
+[2025-05-14 18:06:57.126] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  77c21b27-2ca4-48df-b3bd-73208f18c459
+[2025-05-14 18:06:57.129] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 9d76ef51-8d28-43a4-87b5-f5077436bf39
+[2025-05-14 18:06:57.130] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  9d76ef51-8d28-43a4-87b5-f5077436bf39
+[2025-05-14 18:06:57.130] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 70f177d8-02d3-4ff6-94df-fee29cd12679
+[2025-05-14 18:06:57.131] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  70f177d8-02d3-4ff6-94df-fee29cd12679
+[2025-05-14 18:06:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 257f64af-b8c2-488c-86fc-6d3f1ae45d41
+[2025-05-14 18:06:57.140] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  257f64af-b8c2-488c-86fc-6d3f1ae45d41
+[2025-05-14 18:06:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get f13ae431-bae2-4fe8-8bdc-716523b6187e
+[2025-05-14 18:06:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  f13ae431-bae2-4fe8-8bdc-716523b6187e
+[2025-05-14 18:16:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 491a1fab-539a-4c87-a351-494a06ccb734
+[2025-05-14 18:16:57.095] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  491a1fab-539a-4c87-a351-494a06ccb734
+[2025-05-14 18:16:57.095] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 85898afc-8f85-4626-8fa6-73b54f3804bd
+[2025-05-14 18:16:57.127] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  85898afc-8f85-4626-8fa6-73b54f3804bd
+[2025-05-14 18:16:57.130] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 7f427d5e-3ca1-454f-b9e7-6d20e8ee59fa
+[2025-05-14 18:16:57.131] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  7f427d5e-3ca1-454f-b9e7-6d20e8ee59fa
+[2025-05-14 18:16:57.131] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 99918c5e-b59c-4d9e-9391-82e515d600cf
+[2025-05-14 18:16:57.132] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  99918c5e-b59c-4d9e-9391-82e515d600cf
+[2025-05-14 18:16:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 0976153f-bc28-4adb-bfab-4a6af9071873
+[2025-05-14 18:16:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  0976153f-bc28-4adb-bfab-4a6af9071873
+[2025-05-14 18:16:57.141] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get ca6612d4-fc23-41a9-afcd-79bebb4ccf60
+[2025-05-14 18:16:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  ca6612d4-fc23-41a9-afcd-79bebb4ccf60
+[2025-05-14 18:26:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 0aa09f0e-0b60-4d51-ace8-eb5337374317
+[2025-05-14 18:26:57.094] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  0aa09f0e-0b60-4d51-ace8-eb5337374317
+[2025-05-14 18:26:57.094] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 2eaf497c-9c5b-4a67-99cd-597464aec6a0
+[2025-05-14 18:26:57.127] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  2eaf497c-9c5b-4a67-99cd-597464aec6a0
+[2025-05-14 18:26:57.130] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus f416a5aa-f23c-4acc-b147-5632df94b6e0
+[2025-05-14 18:26:57.131] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  f416a5aa-f23c-4acc-b147-5632df94b6e0
+[2025-05-14 18:26:57.131] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get ee743f1e-e1f6-4727-ae52-ceff3606e2d8
+[2025-05-14 18:26:57.132] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  ee743f1e-e1f6-4727-ae52-ceff3606e2d8
+[2025-05-14 18:26:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 93631b56-88d6-43aa-844d-b8801ebd09f7
+[2025-05-14 18:26:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  93631b56-88d6-43aa-844d-b8801ebd09f7
+[2025-05-14 18:26:57.141] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 2b6aef03-f0cc-478e-9173-b218c657ea03
+[2025-05-14 18:26:57.142] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  2b6aef03-f0cc-478e-9173-b218c657ea03
+[2025-05-14 18:36:57.093] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus f6419fc9-47d9-480e-8a3a-388a47456a00
+[2025-05-14 18:36:57.094] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  f6419fc9-47d9-480e-8a3a-388a47456a00
+[2025-05-14 18:36:57.095] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 8d7c1196-e687-4b03-a404-76324c3909c7
+[2025-05-14 18:36:57.127] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  8d7c1196-e687-4b03-a404-76324c3909c7
+[2025-05-14 18:36:57.130] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 70874870-b530-4df9-b685-592972e57e21
+[2025-05-14 18:36:57.131] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  70874870-b530-4df9-b685-592972e57e21
+[2025-05-14 18:36:57.131] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 0aa31b7b-9141-49af-afe1-36f8e5576e98
+[2025-05-14 18:36:57.132] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  0aa31b7b-9141-49af-afe1-36f8e5576e98
+[2025-05-14 18:36:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus e4f7a4c0-778f-4765-808f-7c8d2a5d26b9
+[2025-05-14 18:36:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  e4f7a4c0-778f-4765-808f-7c8d2a5d26b9
+[2025-05-14 18:36:57.141] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 0c8f09ce-d54c-4fe0-b920-09db7654e869
+[2025-05-14 18:36:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  0c8f09ce-d54c-4fe0-b920-09db7654e869
+[2025-05-14 18:46:57.092] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 2d0c6507-482a-44ce-a415-0fce1df27559
+[2025-05-14 18:46:57.094] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  2d0c6507-482a-44ce-a415-0fce1df27559
+[2025-05-14 18:46:57.094] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 86b3dfed-8706-40cb-a204-2fe405be7850
+[2025-05-14 18:46:57.126] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  86b3dfed-8706-40cb-a204-2fe405be7850
+[2025-05-14 18:46:57.129] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus 2390a8a8-999f-4617-baad-34721908e3f0
+[2025-05-14 18:46:57.130] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  2390a8a8-999f-4617-baad-34721908e3f0
+[2025-05-14 18:46:57.131] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get ff1ea058-655a-4fdd-9067-91beee08db74
+[2025-05-14 18:46:57.131] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  ff1ea058-655a-4fdd-9067-91beee08db74
+[2025-05-14 18:46:57.140] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/getStatus f2e94531-c7cb-4306-8bac-3ca262c0aaa1
+[2025-05-14 18:46:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  f2e94531-c7cb-4306-8bac-3ca262c0aaa1
+[2025-05-14 18:46:57.141] [info]  (renderer/utilityconnection) SENDING REQUEST FOR NAME, ID:  license/get 7c87106c-a574-4898-be6d-3c69f22e407e
+[2025-05-14 18:46:57.141] [info]  (renderer/utilityconnection) RECEIVED REPLY FOR REQUEST ID:  7c87106c-a574-4898-be6d-3c69f22e407e

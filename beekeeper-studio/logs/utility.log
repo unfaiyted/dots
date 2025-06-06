@@ -12155,3 +12155,1464 @@
 [2025-05-08 22:37:50.719] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 6013de88-8fb5-4950-bca5-e3af4c1ff4e3
 [2025-05-08 22:37:50.720] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get a58acf06-558e-43df-bd37-5570dbab5cd5
 [2025-05-09 06:55:10.395] [info]  (UtilityProcess)       REMOVING STATE FOR:  ea527d98-ddbb-4cc1-8ad2-bae805e228a3
+[2025-05-14 16:26:14.187] [info]  (utilityPlatformInfo) {
+  isWindows: false,
+  isMac: false,
+  isArm: true,
+  oracleSupported: true,
+  parsedArgs: { _: [], sandbox: false },
+  isLinux: true,
+  sessionType: 'wayland',
+  isWayland: false,
+  isPortable: false,
+  isDevelopment: false,
+  isAppImage: false,
+  resourcesPath: '/tmp/.mount_Beekee4S8C84/resources',
+  env: { development: false, test: false, production: true },
+  debugEnabled: false,
+  platform: 'linux',
+  darkMode: false,
+  userDirectory: '/home/faiyt/.config/beekeeper-studio',
+  downloadsDirectory: '/home/faiyt/Downloads',
+  homeDirectory: '/home/faiyt',
+  pluginsDirectory: '/home/faiyt/.config/beekeeper-studio/plugins',
+  testMode: false,
+  appDbPath: '/home/faiyt/.config/beekeeper-studio/app.db',
+  updatesDisabled: false,
+  appVersion: '5.1.5',
+  parsedAppVersion: { major: 5, minor: 1, patch: 5, channel: 'stable' },
+  cloudUrl: 'https://app.beekeeperstudio.io',
+  locale: ''
+}
+[2025-05-14 16:26:14.985] [info]                         initializing utility
+[2025-05-14 16:26:15.796] [info]  (UtilityProcess)       RECEIVED PORT:  {
+  _events: {},
+  _eventsCount: 0,
+  _internalPort: {
+    postMessage: '[function] function postMessage() { [native code] }',
+    start: '[function] function start() { [native code] }',
+    close: '[function] function close() { [native code] }',
+    emit: '[function] (e,t)=>{"message"===e&&(t={...t,ports:t.ports.map((e=>new MessagePortMain(e)))}),this.emit(e,t)}'
+  }
+}
+[2025-05-14 16:26:15.801] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 2daa8323-086a-4b8f-b520-f062afd9142e
+[2025-05-14 16:26:15.809] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/find f3aa9155-160a-4b64-9710-11da86ea14e3
+[2025-05-14 16:26:15.811] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get c340f62d-e29f-43c0-b983-cd3bb3160b1b
+[2025-05-14 16:26:15.811] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  enum/init dd91c862-bfe6-485d-b328-9ceb900dd041
+[2025-05-14 16:26:15.812] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  enum/load ed006c28-a353-475a-ac11-b7baea892e59
+[2025-05-14 16:26:15.853] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/query/find d2ceb2d7-4257-43f4-adc0-69b146fe1586
+[2025-05-14 16:26:15.856] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/saved/find d0f399d6-236b-468d-a460-bd1afbb4d069
+[2025-05-14 16:26:15.859] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/usedQuery/find 9fcf95f2-e389-4a12-9027-c86c3fbff837
+[2025-05-14 16:26:15.861] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/used/find 356bba5c-a514-49b1-be14-dcd55e46d7d3
+[2025-05-14 16:26:15.863] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 57256ae5-b50b-4633-9df1-25f15dcd5890
+[2025-05-14 16:26:15.892] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/credential/find 25ff1f1f-4e63-40f5-b40b-fd47f5eb0720
+[2025-05-14 16:26:15.924] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/get 6df28d16-0772-4292-83bb-4fcd20dafcd2
+[2025-05-14 16:26:15.926] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/get c66c89d9-d85b-4011-9842-0ef9d0b0e8cf
+[2025-05-14 16:26:15.927] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/saved/new 7cd519c0-a6ec-4836-b646-9d14b186b0ac
+[2025-05-14 16:26:15.955] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get b1fef3a6-0c7e-4437-912f-507f843cbb5f
+[2025-05-14 16:26:15.956] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/saved/new c51942ee-1ad6-400f-9888-c293ab92cfb4
+[2025-05-14 16:26:15.957] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/pinconn/find b482ae1c-fd7a-4499-a6fe-88d2cbd3b022
+[2025-05-14 16:26:15.966] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/pinconn/save 35b6f03c-8892-4240-a449-d4e0b6ec975f
+[2025-05-14 16:26:15.969] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/credential/find 7774230f-3a68-4973-b559-b5ad9efdc9b0
+[2025-05-14 16:26:18.191] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/saved/new aad70ff4-bde1-414f-8e14-2904467bbb56
+[2025-05-14 16:26:18.377] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/create 2901e60b-2795-4c4b-bb44-c2a906eef28c
+[2025-05-14 16:26:18.425] [debug] (postgresql)           connected
+[2025-05-14 16:26:18.429] [info]  (postgresql)           Acquiring new connection for:  SELECT CURRENT_SCHEMA() AS schema
+[2025-05-14 16:26:18.430] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.430] [info]  (postgresql)           RUNNING SELECT CURRENT_SCHEMA() AS schema undefined
+[2025-05-14 16:26:18.433] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.434] [info]  (postgresql)           Acquiring new connection for:  select version()
+[2025-05-14 16:26:18.434] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.434] [info]  (postgresql)           RUNNING select version() undefined
+[2025-05-14 16:26:18.435] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.438] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT      n.nspname as schema, t.typname as typename, t.oid::integer as typeid
+      FROM        pg_type t
+        LEFT JOIN   pg_catalog.pg_namespace n ON n.oid = t.typnamespace
+      WHERE       (t.typrelid = 0 OR (SELECT c.relkind = 'c' FROM pg_catalog.pg_class c WHERE c.oid = t.typrelid))
+        AND     n.nspname NOT IN ('pg_catalog', 'information_schema')
+     AND     NOT EXISTS(SELECT 1 FROM pg_catalog.pg_type el WHERE el.oid = t.typelem AND el.typarray = t.oid);
+[2025-05-14 16:26:18.438] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.438] [info]  (postgresql)           RUNNING 
+      SELECT      n.nspname as schema, t.typname as typename, t.oid::integer as typeid
+      FROM        pg_type t
+        LEFT JOIN   pg_catalog.pg_namespace n ON n.oid = t.typnamespace
+      WHERE       (t.typrelid = 0 OR (SELECT c.relkind = 'c' FROM pg_catalog.pg_class c WHERE c.oid = t.typrelid))
+        AND     n.nspname NOT IN ('pg_catalog', 'information_schema')
+     AND     NOT EXISTS(SELECT 1 FROM pg_catalog.pg_type el WHERE el.oid = t.typelem AND el.typarray = t.oid); undefined
+[2025-05-14 16:26:18.441] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.443] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/defaultSchema d3bf0d16-4f13-443f-a822-aa2a73411577
+[2025-05-14 16:26:18.444] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/supportedFeatures a5a30605-4985-4cf6-82de-2f3b8174ae64
+[2025-05-14 16:26:18.445] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/defaultSchema 76815e89-06f4-4399-b56f-3081b3451da6
+[2025-05-14 16:26:18.445] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/getServerConfig d605cee8-f426-4959-87e1-475b3ffa5973
+[2025-05-14 16:26:18.448] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listDatabases 7420727a-2891-4bca-bc71-dcb230e319ef
+[2025-05-14 16:26:18.450] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT datname
+      FROM pg_database
+      WHERE datistemplate = $1
+        
+      ORDER BY datname
+    
+[2025-05-14 16:26:18.450] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.450] [info]  (postgresql)           RUNNING 
+      SELECT datname
+      FROM pg_database
+      WHERE datistemplate = $1
+        
+      ORDER BY datname
+     [ false ]
+[2025-05-14 16:26:18.452] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.453] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/pins/find 59230fef-c9d6-4015-b95c-f7abbf430e12
+[2025-05-14 16:26:18.455] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/hiddenEntity/find 0657a7de-be01-45a7-be10-6be3c850185e
+[2025-05-14 16:26:18.472] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/get d6c0edc0-7d3c-4642-93bd-f185bcc967f9
+[2025-05-14 16:26:18.473] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/get c99bf3d1-8649-4bfb-be9b-7e7faec9ba22
+[2025-05-14 16:26:18.474] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/find f8c1519b-7e38-4530-a55e-6832b1818681
+[2025-05-14 16:26:18.480] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTables 14f5d2cf-89af-43f3-bdea-23926ee37fdf
+[2025-05-14 16:26:18.483] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        t.table_schema as schema,
+        t.table_name as name,
+    
+          pc.relkind as tabletype,
+          parent_pc.relkind as parenttype
+        FROM information_schema.tables AS t
+        JOIN pg_class AS pc
+          ON t.table_name = pc.relname AND quote_ident(t.table_schema) = pc.relnamespace::regnamespace::text
+        LEFT OUTER JOIN pg_inherits AS i
+          ON pc.oid = i.inhrelid
+        LEFT OUTER JOIN pg_class AS parent_pc
+          ON parent_pc.oid = i.inhparent
+        WHERE t.table_type NOT LIKE '%VIEW%'
+      
+      
+      ORDER BY t.table_schema, t.table_name
+    
+[2025-05-14 16:26:18.483] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.483] [info]  (postgresql)           RUNNING 
+      SELECT
+        t.table_schema as schema,
+        t.table_name as name,
+    
+          pc.relkind as tabletype,
+          parent_pc.relkind as parenttype
+        FROM information_schema.tables AS t
+        JOIN pg_class AS pc
+          ON t.table_name = pc.relname AND quote_ident(t.table_schema) = pc.relnamespace::regnamespace::text
+        LEFT OUTER JOIN pg_inherits AS i
+          ON pc.oid = i.inhrelid
+        LEFT OUTER JOIN pg_class AS parent_pc
+          ON parent_pc.oid = i.inhparent
+        WHERE t.table_type NOT LIKE '%VIEW%'
+      
+      
+      ORDER BY t.table_schema, t.table_name
+     undefined
+[2025-05-14 16:26:18.484] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/hiddenSchema/find 27e6dcd6-bf63-437c-a2d4-ef5d71581010
+[2025-05-14 16:26:18.485] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/set 7fd226f5-c3ae-4cb9-a33b-aa2003250426
+[2025-05-14 16:26:18.492] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/set f9e8568b-8e40-4539-825d-5ec8d5718d33
+[2025-05-14 16:26:18.495] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.548] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listViews 0d6a6cda-986f-4ccf-9c57-144952fc44ac
+[2025-05-14 16:26:18.549] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema as schema,
+        table_name as name
+      FROM information_schema.views
+        
+      ORDER BY table_schema, table_name
+    
+[2025-05-14 16:26:18.549] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.549] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema as schema,
+        table_name as name
+      FROM information_schema.views
+        
+      ORDER BY table_schema, table_name
+     undefined
+[2025-05-14 16:26:18.551] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.552] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listMaterializedViews bce0b151-6ecf-4587-bad8-86dec9246b9c
+[2025-05-14 16:26:18.553] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        schemaname as schema,
+        matviewname as name
+      FROM pg_matviews
+        
+      order by schemaname, matviewname;
+    
+[2025-05-14 16:26:18.553] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.553] [info]  (postgresql)           RUNNING 
+      SELECT
+        schemaname as schema,
+        matviewname as name
+      FROM pg_matviews
+        
+      order by schemaname, matviewname;
+     undefined
+[2025-05-14 16:26:18.555] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.677] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns be32d147-b168-4536-9d3a-e085774ef7bd
+[2025-05-14 16:26:18.679] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:26:18.680] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.680] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'ai_conversation_analytics' ]
+[2025-05-14 16:26:18.681] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listRoutines a4c028d2-5986-4847-bd40-185370b8a836
+[2025-05-14 16:26:18.681] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        r.specific_name as id,
+        r.routine_schema as routine_schema,
+        r.routine_name as name,
+        r.routine_type as routine_type,
+        r.data_type as data_type
+      FROM INFORMATION_SCHEMA.ROUTINES r
+      where r.routine_schema not in ('sys', 'information_schema',
+                                     'pg_catalog', 'performance_schema')
+        
+      ORDER BY routine_schema, routine_name
+    
+[2025-05-14 16:26:18.689] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.689] [info]  (postgresql)           RUNNING 
+      SELECT
+        r.specific_name as id,
+        r.routine_schema as routine_schema,
+        r.routine_name as name,
+        r.routine_type as routine_type,
+        r.data_type as data_type
+      FROM INFORMATION_SCHEMA.ROUTINES r
+      where r.routine_schema not in ('sys', 'information_schema',
+                                     'pg_catalog', 'performance_schema')
+        
+      ORDER BY routine_schema, routine_name
+     undefined
+[2025-05-14 16:26:18.692] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.694] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.695] [info]  (postgresql)           Acquiring new connection for:  
+      select
+        r.routine_schema as routine_schema,
+        r.specific_name as specific_name,
+        p.parameter_name as parameter_name,
+        p.character_maximum_length as char_length,
+          p.data_type as data_type
+      from information_schema.routines r
+        left join information_schema.parameters p
+      on p.specific_schema = r.routine_schema
+        and p.specific_name = r.specific_name
+      where r.routine_schema not in ('sys', 'information_schema',
+        'pg_catalog', 'performance_schema')
+        
+
+        AND p.parameter_mode = 'IN'
+      order by r.routine_schema,
+        r.specific_name,
+        p.ordinal_position;
+
+    
+[2025-05-14 16:26:18.695] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.695] [info]  (postgresql)           RUNNING 
+      select
+        r.routine_schema as routine_schema,
+        r.specific_name as specific_name,
+        p.parameter_name as parameter_name,
+        p.character_maximum_length as char_length,
+          p.data_type as data_type
+      from information_schema.routines r
+        left join information_schema.parameters p
+      on p.specific_schema = r.routine_schema
+        and p.specific_name = r.specific_name
+      where r.routine_schema not in ('sys', 'information_schema',
+        'pg_catalog', 'performance_schema')
+        
+
+        AND p.parameter_mode = 'IN'
+      order by r.routine_schema,
+        r.specific_name,
+        p.ordinal_position;
+
+     undefined
+[2025-05-14 16:26:18.697] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.721] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/getTableKeys e7c9a075-bcb2-4d06-ba20-57983217e080
+[2025-05-14 16:26:18.722] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        kcu.constraint_schema AS from_schema,
+        kcu.table_name AS from_table,
+        STRING_AGG(kcu.column_name, ',' ORDER BY kcu.ordinal_position) AS from_column,
+        rc.unique_constraint_schema AS to_schema,
+        tc.constraint_name,
+        rc.update_rule,
+        rc.delete_rule,
+        (
+          SELECT STRING_AGG(kcu2.column_name, ',' ORDER BY kcu2.ordinal_position)
+          FROM information_schema.key_column_usage AS kcu2
+          WHERE kcu2.constraint_name = rc.unique_constraint_name
+        ) AS to_column,
+        (
+          SELECT kcu2.table_name
+          FROM information_schema.key_column_usage AS kcu2
+          WHERE kcu2.constraint_name = rc.unique_constraint_name LIMIT 1
+        ) AS to_table
+      FROM
+        information_schema.key_column_usage AS kcu
+        JOIN
+        information_schema.table_constraints AS tc
+      ON
+        tc.constraint_name = kcu.constraint_name
+        JOIN
+        information_schema.referential_constraints AS rc
+        ON
+        rc.constraint_name = kcu.constraint_name
+      WHERE
+        tc.constraint_type = 'FOREIGN KEY' AND
+        kcu.table_schema NOT LIKE 'pg_%' AND
+        kcu.table_schema = $2 AND
+        kcu.table_name = $1
+      GROUP BY
+        kcu.constraint_schema,
+        kcu.table_name,
+        rc.unique_constraint_schema,
+        rc.unique_constraint_name,
+        tc.constraint_name,
+        rc.update_rule,
+        rc.delete_rule;
+    
+[2025-05-14 16:26:18.722] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.722] [info]  (postgresql)           RUNNING 
+      SELECT
+        kcu.constraint_schema AS from_schema,
+        kcu.table_name AS from_table,
+        STRING_AGG(kcu.column_name, ',' ORDER BY kcu.ordinal_position) AS from_column,
+        rc.unique_constraint_schema AS to_schema,
+        tc.constraint_name,
+        rc.update_rule,
+        rc.delete_rule,
+        (
+          SELECT STRING_AGG(kcu2.column_name, ',' ORDER BY kcu2.ordinal_position)
+          FROM information_schema.key_column_usage AS kcu2
+          WHERE kcu2.constraint_name = rc.unique_constraint_name
+        ) AS to_column,
+        (
+          SELECT kcu2.table_name
+          FROM information_schema.key_column_usage AS kcu2
+          WHERE kcu2.constraint_name = rc.unique_constraint_name LIMIT 1
+        ) AS to_table
+      FROM
+        information_schema.key_column_usage AS kcu
+        JOIN
+        information_schema.table_constraints AS tc
+      ON
+        tc.constraint_name = kcu.constraint_name
+        JOIN
+        information_schema.referential_constraints AS rc
+        ON
+        rc.constraint_name = kcu.constraint_name
+      WHERE
+        tc.constraint_type = 'FOREIGN KEY' AND
+        kcu.table_schema NOT LIKE 'pg_%' AND
+        kcu.table_schema = $2 AND
+        kcu.table_name = $1
+      GROUP BY
+        kcu.constraint_schema,
+        kcu.table_name,
+        rc.unique_constraint_schema,
+        rc.unique_constraint_name,
+        tc.constraint_name,
+        rc.update_rule,
+        rc.delete_rule;
+     [ 'ai_conversation_analytics', 'public' ]
+[2025-05-14 16:26:18.730] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.737] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/used/save bcb0a8db-8933-4bb2-be17-fa720f9f7f8f
+[2025-05-14 16:26:18.738] [info]  (Appdb handlers)       Saving used:  {
+  id: 1,
+  createdAt: '2025-04-29T19:39:00.663Z',
+  updatedAt: '2025-05-14T21:26:18.737Z',
+  _connectionType: 'postgresql',
+  host: 'localhost',
+  _port: 5433,
+  _socketPath: '/var/run/postgresql',
+  socketPathEnabled: false,
+  username: 'postgres',
+  domain: null,
+  defaultDatabase: 'suasor',
+  url: null,
+  uniqueHash: 'DEPRECATED',
+  sshEnabled: false,
+  sshHost: null,
+  sshPort: 22,
+  sshKeyfile: null,
+  sshUsername: null,
+  sshBastionHost: null,
+  sshKeepaliveInterval: 60,
+  ssl: false,
+  sslCaFile: null,
+  sslCertFile: null,
+  sslKeyFile: null,
+  sslRejectUnauthorized: true,
+  readOnlyMode: false,
+  options: { connectionMethod: 'manual' },
+  redshiftOptions: {},
+  cassandraOptions: {},
+  bigQueryOptions: {},
+  azureAuthOptions: {},
+  authId: null,
+  libsqlOptions: { mode: 'url' },
+  trustServerCertificate: false,
+  serviceName: null,
+  connectionId: 2,
+  workspaceId: -1,
+  version: 8
+}
+[2025-05-14 16:26:18.747] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/getPrimaryKeys 921945a5-75fb-448f-9e3a-9738cf2fcb81
+[2025-05-14 16:26:18.747] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        a.attname as column_name,
+        format_type(a.atttypid, a.atttypmod) AS data_type,
+        a.attnum as position
+      FROM   pg_index i
+        JOIN   pg_attribute a ON a.attrelid = i.indrelid
+        AND a.attnum = ANY(i.indkey)
+      WHERE  i.indrelid = '"public"."ai_conversation_analytics"'::regclass
+        AND    i.indisprimary
+      ORDER BY a.attnum
+    
+[2025-05-14 16:26:18.747] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.747] [info]  (postgresql)           RUNNING 
+      SELECT
+        a.attname as column_name,
+        format_type(a.atttypid, a.atttypmod) AS data_type,
+        a.attnum as position
+      FROM   pg_index i
+        JOIN   pg_attribute a ON a.attrelid = i.indrelid
+        AND a.attnum = ANY(i.indkey)
+      WHERE  i.indrelid = '"public"."ai_conversation_analytics"'::regclass
+        AND    i.indisprimary
+      ORDER BY a.attnum
+     undefined
+[2025-05-14 16:26:18.748] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.778] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/selectTop 653d548d-121e-4a2d-8467-75cc6df40aa4
+[2025-05-14 16:26:18.778] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT * 
+      FROM "public"."ai_conversation_analytics"
+      
+    
+      ORDER BY "conversation_id" ASC
+      LIMIT 100
+      OFFSET 0
+      
+[2025-05-14 16:26:18.778] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.778] [info]  (postgresql)           RUNNING 
+      SELECT * 
+      FROM "public"."ai_conversation_analytics"
+      
+    
+      ORDER BY "conversation_id" ASC
+      LIMIT 100
+      OFFSET 0
+       []
+[2025-05-14 16:26:18.779] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.781] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns feb4befc-f0a7-44c1-ab42-008698cf5a71
+[2025-05-14 16:26:18.782] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:26:18.782] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:18.782] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'ai_conversation_analytics' ]
+[2025-05-14 16:26:18.791] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:18.793] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 6a854efb-1233-4c45-8ed0-79d9ad497ed1
+[2025-05-14 16:26:18.983] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 6efae6dd-92f8-4fac-9bec-2acdf6465d43
+[2025-05-14 16:26:19.057] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 4016f3cf-faac-4c42-bd35-e5b1ffe80121
+[2025-05-14 16:26:35.823] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 1184542b-62e2-4a0c-bc26-4e4d82df2b81
+[2025-05-14 16:26:35.829] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns f2c13f35-35bd-4e6b-baea-9047f9aa6813
+[2025-05-14 16:26:35.829] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:26:35.829] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:35.829] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'media_items' ]
+[2025-05-14 16:26:35.839] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:35.889] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/getTableKeys b00d8a89-0acf-4946-9d1e-b25a3995e70a
+[2025-05-14 16:26:35.891] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        kcu.constraint_schema AS from_schema,
+        kcu.table_name AS from_table,
+        STRING_AGG(kcu.column_name, ',' ORDER BY kcu.ordinal_position) AS from_column,
+        rc.unique_constraint_schema AS to_schema,
+        tc.constraint_name,
+        rc.update_rule,
+        rc.delete_rule,
+        (
+          SELECT STRING_AGG(kcu2.column_name, ',' ORDER BY kcu2.ordinal_position)
+          FROM information_schema.key_column_usage AS kcu2
+          WHERE kcu2.constraint_name = rc.unique_constraint_name
+        ) AS to_column,
+        (
+          SELECT kcu2.table_name
+          FROM information_schema.key_column_usage AS kcu2
+          WHERE kcu2.constraint_name = rc.unique_constraint_name LIMIT 1
+        ) AS to_table
+      FROM
+        information_schema.key_column_usage AS kcu
+        JOIN
+        information_schema.table_constraints AS tc
+      ON
+        tc.constraint_name = kcu.constraint_name
+        JOIN
+        information_schema.referential_constraints AS rc
+        ON
+        rc.constraint_name = kcu.constraint_name
+      WHERE
+        tc.constraint_type = 'FOREIGN KEY' AND
+        kcu.table_schema NOT LIKE 'pg_%' AND
+        kcu.table_schema = $2 AND
+        kcu.table_name = $1
+      GROUP BY
+        kcu.constraint_schema,
+        kcu.table_name,
+        rc.unique_constraint_schema,
+        rc.unique_constraint_name,
+        tc.constraint_name,
+        rc.update_rule,
+        rc.delete_rule;
+    
+[2025-05-14 16:26:35.891] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:35.891] [info]  (postgresql)           RUNNING 
+      SELECT
+        kcu.constraint_schema AS from_schema,
+        kcu.table_name AS from_table,
+        STRING_AGG(kcu.column_name, ',' ORDER BY kcu.ordinal_position) AS from_column,
+        rc.unique_constraint_schema AS to_schema,
+        tc.constraint_name,
+        rc.update_rule,
+        rc.delete_rule,
+        (
+          SELECT STRING_AGG(kcu2.column_name, ',' ORDER BY kcu2.ordinal_position)
+          FROM information_schema.key_column_usage AS kcu2
+          WHERE kcu2.constraint_name = rc.unique_constraint_name
+        ) AS to_column,
+        (
+          SELECT kcu2.table_name
+          FROM information_schema.key_column_usage AS kcu2
+          WHERE kcu2.constraint_name = rc.unique_constraint_name LIMIT 1
+        ) AS to_table
+      FROM
+        information_schema.key_column_usage AS kcu
+        JOIN
+        information_schema.table_constraints AS tc
+      ON
+        tc.constraint_name = kcu.constraint_name
+        JOIN
+        information_schema.referential_constraints AS rc
+        ON
+        rc.constraint_name = kcu.constraint_name
+      WHERE
+        tc.constraint_type = 'FOREIGN KEY' AND
+        kcu.table_schema NOT LIKE 'pg_%' AND
+        kcu.table_schema = $2 AND
+        kcu.table_name = $1
+      GROUP BY
+        kcu.constraint_schema,
+        kcu.table_name,
+        rc.unique_constraint_schema,
+        rc.unique_constraint_name,
+        tc.constraint_name,
+        rc.update_rule,
+        rc.delete_rule;
+     [ 'media_items', 'public' ]
+[2025-05-14 16:26:35.899] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:35.900] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/getPrimaryKeys 25ec1c90-aad0-4585-a661-e49505592456
+[2025-05-14 16:26:35.900] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        a.attname as column_name,
+        format_type(a.atttypid, a.atttypmod) AS data_type,
+        a.attnum as position
+      FROM   pg_index i
+        JOIN   pg_attribute a ON a.attrelid = i.indrelid
+        AND a.attnum = ANY(i.indkey)
+      WHERE  i.indrelid = '"public"."media_items"'::regclass
+        AND    i.indisprimary
+      ORDER BY a.attnum
+    
+[2025-05-14 16:26:35.901] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:35.901] [info]  (postgresql)           RUNNING 
+      SELECT
+        a.attname as column_name,
+        format_type(a.atttypid, a.atttypmod) AS data_type,
+        a.attnum as position
+      FROM   pg_index i
+        JOIN   pg_attribute a ON a.attrelid = i.indrelid
+        AND a.attnum = ANY(i.indkey)
+      WHERE  i.indrelid = '"public"."media_items"'::regclass
+        AND    i.indisprimary
+      ORDER BY a.attnum
+     undefined
+[2025-05-14 16:26:35.902] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:35.940] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/selectTop 73c6a590-61e4-4d25-aab9-d861bc4576e1
+[2025-05-14 16:26:35.941] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" ASC
+      LIMIT 100
+      OFFSET 0
+      
+[2025-05-14 16:26:35.942] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:35.942] [info]  (postgresql)           RUNNING 
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" ASC
+      LIMIT 100
+      OFFSET 0
+       [ 'movie' ]
+[2025-05-14 16:26:35.949] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:35.953] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns 5276cb76-b4a5-4f04-a24c-e76e0410cbbe
+[2025-05-14 16:26:35.954] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:26:35.955] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:35.955] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'media_items' ]
+[2025-05-14 16:26:35.964] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:35.980] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 61451bf4-71a9-4524-8808-ad108dc67418
+[2025-05-14 16:26:36.208] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save b1eb2a2a-e524-414e-80ce-cff6cc87ad6e
+[2025-05-14 16:26:36.323] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 26a0e604-77c8-460b-a423-f95883ba395e
+[2025-05-14 16:26:40.360] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/selectTop 80106455-f035-40de-818c-55d7d5251339
+[2025-05-14 16:26:40.361] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" DESC
+      LIMIT 100
+      OFFSET 0
+      
+[2025-05-14 16:26:40.361] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:40.361] [info]  (postgresql)           RUNNING 
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" DESC
+      LIMIT 100
+      OFFSET 0
+       [ 'movie' ]
+[2025-05-14 16:26:40.366] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:40.375] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns 9c917084-28ba-402c-ad42-d46f315656ed
+[2025-05-14 16:26:40.377] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:26:40.377] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:40.377] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'media_items' ]
+[2025-05-14 16:26:40.388] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:40.398] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 538ef313-2c7a-4d41-9f37-48be5d8e0136
+[2025-05-14 16:26:41.120] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/selectTop 67b54ce6-11d4-4300-bbb2-baf4f6ced5d0
+[2025-05-14 16:26:41.120] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" ASC
+      LIMIT 100
+      OFFSET 0
+      
+[2025-05-14 16:26:41.121] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:41.121] [info]  (postgresql)           RUNNING 
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" ASC
+      LIMIT 100
+      OFFSET 0
+       [ 'movie' ]
+[2025-05-14 16:26:41.125] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:41.133] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns 3fcf0f1b-ba6b-463e-9d50-30550b61c06e
+[2025-05-14 16:26:41.134] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:26:41.134] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:41.134] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'media_items' ]
+[2025-05-14 16:26:41.143] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:41.153] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 14c28a41-1e2d-4267-b35c-4807536239ba
+[2025-05-14 16:26:41.883] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/selectTop 78e5799e-c03e-4f3f-a4c6-2f8e3f69f9ab
+[2025-05-14 16:26:41.884] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" DESC
+      LIMIT 100
+      OFFSET 0
+      
+[2025-05-14 16:26:41.884] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:41.884] [info]  (postgresql)           RUNNING 
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" DESC
+      LIMIT 100
+      OFFSET 0
+       [ 'movie' ]
+[2025-05-14 16:26:41.888] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:41.896] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns 066385dc-435a-4a36-8342-b81a873643ab
+[2025-05-14 16:26:41.897] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:26:41.897] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:41.897] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'media_items' ]
+[2025-05-14 16:26:41.903] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:41.909] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 709298fb-89cd-4ec9-bfe9-9d387ee11b78
+[2025-05-14 16:26:53.865] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/selectTop 7879b8cc-3380-406f-8289-737bd724e026
+[2025-05-14 16:26:53.866] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" DESC
+      LIMIT 100
+      OFFSET 0
+      
+[2025-05-14 16:26:53.867] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:53.867] [info]  (postgresql)           RUNNING 
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" DESC
+      LIMIT 100
+      OFFSET 0
+       [ 'playlist' ]
+[2025-05-14 16:26:53.872] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:53.876] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns 8a4b3d9a-0f12-4db1-b9ad-3842f2f40620
+[2025-05-14 16:26:53.878] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:26:53.878] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:26:53.878] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'media_items' ]
+[2025-05-14 16:26:53.888] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:26:53.907] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save fed7a417-65ce-48dc-94d6-0ebff1da9ad8
+[2025-05-14 16:26:54.161] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 3bf77db0-55ec-4e2e-9e13-90bd879ce194
+[2025-05-14 16:26:54.175] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 788bd9b2-e79f-4e73-9504-002bc868822f
+[2025-05-14 16:27:01.842] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/selectTop 1d94889d-2947-46d2-9e58-5007e368392a
+[2025-05-14 16:27:01.843] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" ASC
+      LIMIT 100
+      OFFSET 0
+      
+[2025-05-14 16:27:01.843] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:27:01.843] [info]  (postgresql)           RUNNING 
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" ASC
+      LIMIT 100
+      OFFSET 0
+       [ 'playlist' ]
+[2025-05-14 16:27:01.897] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:27:01.901] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns 22a41172-6cf7-4598-a2b8-9d8ade8b32b7
+[2025-05-14 16:27:01.903] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:27:01.903] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:27:01.903] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'media_items' ]
+[2025-05-14 16:27:01.910] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:27:01.921] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save 116ddf3f-c06a-4981-9370-f0e10ae6b305
+[2025-05-14 16:27:02.942] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/selectTop d19a06f7-1f49-4114-a8b0-cf491b875aba
+[2025-05-14 16:27:02.943] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" DESC
+      LIMIT 100
+      OFFSET 0
+      
+[2025-05-14 16:27:02.944] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:27:02.944] [info]  (postgresql)           RUNNING 
+      SELECT * 
+      FROM "public"."media_items"
+      WHERE "type" = $1
+    
+      ORDER BY "id" DESC
+      LIMIT 100
+      OFFSET 0
+       [ 'playlist' ]
+[2025-05-14 16:27:02.947] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:27:02.956] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  conn/listTableColumns ed48735d-d690-45f7-ba5f-4ea26a30b082
+[2025-05-14 16:27:02.956] [info]  (postgresql)           Acquiring new connection for:  
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+    
+[2025-05-14 16:27:02.957] [debug] (postgresql)           Pool event: connection acquired
+[2025-05-14 16:27:02.957] [info]  (postgresql)           RUNNING 
+      SELECT
+        table_schema,
+        table_name,
+        column_name,
+        is_nullable,
+        is_generated,
+          ordinal_position,
+        column_default,
+        CASE
+          WHEN character_maximum_length is not null  and udt_name != 'text'
+            THEN udt_name || '(' || character_maximum_length::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is not null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ',' || numeric_scale::varchar(255) || ')'
+          WHEN numeric_precision is not null and numeric_scale is null
+            THEN udt_name || '(' || numeric_precision::varchar(255) || ')'
+          WHEN datetime_precision is not null AND udt_name != 'date' THEN
+            udt_name || '(' || datetime_precision::varchar(255) || ')'
+          ELSE udt_name
+      END as data_type,
+        CASE
+          WHEN data_type = 'ARRAY' THEN 'YES'
+          ELSE 'NO'
+      END as is_array,
+        pg_catalog.col_description(format('%I.%I', table_schema, table_name)::regclass::oid, ordinal_position) as column_comment
+      FROM information_schema.columns
+      WHERE table_schema = $1 AND table_name = $2
+      ORDER BY table_schema, table_name, ordinal_position
+     [ 'public', 'media_items' ]
+[2025-05-14 16:27:02.964] [debug] (postgresql)           Pool event: connection released
+[2025-05-14 16:27:02.973] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/tabs/save b0ee25e2-1cb0-49a8-923a-a84cf230706c
+[2025-05-14 16:43:11.908] [info]  (UtilityProcess)       REMOVING STATE FOR:  ba4aade1-01bd-4cca-bd92-8475aed55322
+[2025-05-14 16:56:55.696] [info]  (utilityPlatformInfo) {
+  isWindows: false,
+  isMac: false,
+  isArm: true,
+  oracleSupported: true,
+  parsedArgs: { _: [], sandbox: false },
+  isLinux: true,
+  sessionType: 'wayland',
+  isWayland: false,
+  isPortable: false,
+  isDevelopment: false,
+  isAppImage: false,
+  resourcesPath: '/tmp/.mount_Beekee6lEbLJ/resources',
+  env: { development: false, test: false, production: true },
+  debugEnabled: false,
+  platform: 'linux',
+  darkMode: false,
+  userDirectory: '/home/faiyt/.config/beekeeper-studio',
+  downloadsDirectory: '/home/faiyt/Downloads',
+  homeDirectory: '/home/faiyt',
+  pluginsDirectory: '/home/faiyt/.config/beekeeper-studio/plugins',
+  testMode: false,
+  appDbPath: '/home/faiyt/.config/beekeeper-studio/app.db',
+  updatesDisabled: false,
+  appVersion: '5.1.5',
+  parsedAppVersion: { major: 5, minor: 1, patch: 5, channel: 'stable' },
+  cloudUrl: 'https://app.beekeeperstudio.io',
+  locale: ''
+}
+[2025-05-14 16:56:56.186] [info]                         initializing utility
+[2025-05-14 16:56:57.084] [info]  (UtilityProcess)       RECEIVED PORT:  {
+  _events: {},
+  _eventsCount: 0,
+  _internalPort: {
+    postMessage: '[function] function postMessage() { [native code] }',
+    start: '[function] function start() { [native code] }',
+    close: '[function] function close() { [native code] }',
+    emit: '[function] (e,t)=>{"message"===e&&(t={...t,ports:t.ports.map((e=>new MessagePortMain(e)))}),this.emit(e,t)}'
+  }
+}
+[2025-05-14 16:56:57.086] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 3d812918-a3ba-4b9e-b39f-6952d6e82105
+[2025-05-14 16:56:57.091] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/find 52349f4b-c53b-48cb-b952-0ee31ea36727
+[2025-05-14 16:56:57.092] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get acabd093-8c0a-4e49-b769-5da7b2f7f624
+[2025-05-14 16:56:57.092] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  enum/init 40cfd755-cc45-4130-8e54-24c5d37ea5d3
+[2025-05-14 16:56:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  enum/load 76577b13-7c9d-4257-ab8b-9521d4db3dc4
+[2025-05-14 16:56:57.136] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/query/find 603f651c-42e3-45df-9b43-6e0030d7e8bb
+[2025-05-14 16:56:57.138] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/saved/find 4edc563a-5356-4359-b560-45c00f7b682f
+[2025-05-14 16:56:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/usedQuery/find e9269b67-53ef-4706-9772-b1d62464156e
+[2025-05-14 16:56:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/used/find c54681f5-f928-4a52-b27b-e6029ccfdea6
+[2025-05-14 16:56:57.143] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 689efcdf-ff79-437f-91a6-a9bf9e266991
+[2025-05-14 16:56:57.171] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/credential/find 91cb8aa5-5d9e-4c35-b876-a9fade164e1a
+[2025-05-14 16:56:57.263] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/get 67689e8c-7cfd-4307-a1e1-8c6c8683468d
+[2025-05-14 16:56:57.265] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/setting/get 4015807c-8d34-44c2-8abc-6287086a66ce
+[2025-05-14 16:56:57.266] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/saved/new 5c676418-b164-441b-beef-65df5dda9faf
+[2025-05-14 16:56:57.342] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get a8e3d2fa-4fc9-4a6b-a13d-24720cafdf57
+[2025-05-14 16:56:57.345] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/saved/new 99c5edde-984a-40e0-8d1f-76c0d8849f7f
+[2025-05-14 16:56:57.347] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/pinconn/find 7dc46f10-f5b7-4380-affc-e1b50ec688de
+[2025-05-14 16:56:57.363] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/pinconn/save 9ed96cf7-d729-4985-91ac-b3f2a3cd1f91
+[2025-05-14 16:56:57.365] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/credential/find 3ba578b1-8807-4048-8d70-781943824c52
+[2025-05-14 16:56:59.759] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  appdb/saved/new fdef2e16-ad75-47e0-b5c2-92506387a7de
+[2025-05-14 17:06:57.125] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus d5e7d998-4b72-44c8-8865-2298c4fcd67d
+[2025-05-14 17:06:57.128] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus bf289899-d4b5-4d5d-a4a6-e9b4ecc94af2
+[2025-05-14 17:06:57.128] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 75f45068-5363-4723-aa8f-97a43e57ba99
+[2025-05-14 17:06:57.129] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 073ab650-df45-4d63-819e-da28d1aee67a
+[2025-05-14 17:06:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus d9d63d21-b1a8-41ff-a159-b0eb7b77dd1c
+[2025-05-14 17:06:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 367e3e92-0ebf-4279-87de-0dba48f1762f
+[2025-05-14 17:16:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 4d02d472-3c7e-43d4-965d-4a66169348b3
+[2025-05-14 17:16:57.125] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get bac6828a-4860-4f04-aad5-76d53519849c
+[2025-05-14 17:16:57.126] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 0f4af26a-8b9e-477b-859b-27e951630acd
+[2025-05-14 17:16:57.130] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get c044c2e8-5445-4d96-ad1a-72ada5bd6669
+[2025-05-14 17:16:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus af049a82-4276-4635-a3e6-958a3d769dd9
+[2025-05-14 17:16:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 89b623f3-7a13-4302-8345-5a2893701261
+[2025-05-14 17:26:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 33c02ea0-5abe-460d-9b27-179613e06cef
+[2025-05-14 17:26:57.125] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get e0d8448f-acb5-4d66-b6d9-f02c717c9835
+[2025-05-14 17:26:57.126] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus c67e6947-e822-4ca8-a7d9-da29c24805aa
+[2025-05-14 17:26:57.131] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 6b72d9e6-07f1-4f93-8a1d-911a797723d8
+[2025-05-14 17:26:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 36873992-7f4b-41ce-bdc9-70460398a2f6
+[2025-05-14 17:26:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get abbfde63-6792-45e8-abe4-233071ac7c50
+[2025-05-14 17:36:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 58554abd-3453-40b6-ac36-253922d01557
+[2025-05-14 17:36:57.095] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get e13c5017-4cf9-4325-807c-debd63b1c401
+[2025-05-14 17:36:57.127] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 279fa6d0-a17f-4bd0-92dc-cebe9a865ffe
+[2025-05-14 17:36:57.129] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 0cf9c661-e1fb-4978-add1-d08f6554dc86
+[2025-05-14 17:36:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 8535af17-4d1a-4661-8041-570d4c0807ac
+[2025-05-14 17:36:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get a04291fa-dc89-43ee-b914-c239d328523a
+[2025-05-14 17:46:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 91dc498f-f399-42f3-9e3b-ead54b141dda
+[2025-05-14 17:46:57.095] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get d9b008ed-3f4c-461e-8a92-b27294546eb3
+[2025-05-14 17:46:57.127] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 47125ced-2545-4a9e-90b8-33a62db0dd23
+[2025-05-14 17:46:57.128] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 76d6eeff-01e8-4104-9b82-ddd6ed65b681
+[2025-05-14 17:46:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 9b2dfebe-a67e-478d-bdf1-7fb7fcd22034
+[2025-05-14 17:46:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get dcb788fb-52db-42ee-b728-217ac1518b81
+[2025-05-14 17:56:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus d8709a85-99d3-476e-8484-9a7f3b44f2b5
+[2025-05-14 17:56:57.095] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get a79779c1-a7c3-43f8-be33-2d67eef2ea83
+[2025-05-14 17:56:57.128] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 4679aef0-e9b3-462c-9705-5d10a6f64cdf
+[2025-05-14 17:56:57.129] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get fae57546-3b27-44c4-a6a6-edd34d1b076b
+[2025-05-14 17:56:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 8d11b1c0-d412-401b-a5c1-b0a3b8ddad40
+[2025-05-14 17:56:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get e365a3f4-749f-4e0b-b070-d8f1f94c706c
+[2025-05-14 18:06:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 97b10682-4a00-4394-b697-39e08e3346d9
+[2025-05-14 18:06:57.095] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 77c21b27-2ca4-48df-b3bd-73208f18c459
+[2025-05-14 18:06:57.130] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 9d76ef51-8d28-43a4-87b5-f5077436bf39
+[2025-05-14 18:06:57.131] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 70f177d8-02d3-4ff6-94df-fee29cd12679
+[2025-05-14 18:06:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 257f64af-b8c2-488c-86fc-6d3f1ae45d41
+[2025-05-14 18:06:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get f13ae431-bae2-4fe8-8bdc-716523b6187e
+[2025-05-14 18:16:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 491a1fab-539a-4c87-a351-494a06ccb734
+[2025-05-14 18:16:57.095] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 85898afc-8f85-4626-8fa6-73b54f3804bd
+[2025-05-14 18:16:57.130] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 7f427d5e-3ca1-454f-b9e7-6d20e8ee59fa
+[2025-05-14 18:16:57.131] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 99918c5e-b59c-4d9e-9391-82e515d600cf
+[2025-05-14 18:16:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 0976153f-bc28-4adb-bfab-4a6af9071873
+[2025-05-14 18:16:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get ca6612d4-fc23-41a9-afcd-79bebb4ccf60
+[2025-05-14 18:26:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 0aa09f0e-0b60-4d51-ace8-eb5337374317
+[2025-05-14 18:26:57.095] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 2eaf497c-9c5b-4a67-99cd-597464aec6a0
+[2025-05-14 18:26:57.130] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus f416a5aa-f23c-4acc-b147-5632df94b6e0
+[2025-05-14 18:26:57.131] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get ee743f1e-e1f6-4727-ae52-ceff3606e2d8
+[2025-05-14 18:26:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 93631b56-88d6-43aa-844d-b8801ebd09f7
+[2025-05-14 18:26:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 2b6aef03-f0cc-478e-9173-b218c657ea03
+[2025-05-14 18:36:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus f6419fc9-47d9-480e-8a3a-388a47456a00
+[2025-05-14 18:36:57.095] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 8d7c1196-e687-4b03-a404-76324c3909c7
+[2025-05-14 18:36:57.130] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 70874870-b530-4df9-b685-592972e57e21
+[2025-05-14 18:36:57.131] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 0aa31b7b-9141-49af-afe1-36f8e5576e98
+[2025-05-14 18:36:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus e4f7a4c0-778f-4765-808f-7c8d2a5d26b9
+[2025-05-14 18:36:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 0c8f09ce-d54c-4fe0-b920-09db7654e869
+[2025-05-14 18:46:57.093] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 2d0c6507-482a-44ce-a415-0fce1df27559
+[2025-05-14 18:46:57.095] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 86b3dfed-8706-40cb-a204-2fe405be7850
+[2025-05-14 18:46:57.130] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus 2390a8a8-999f-4617-baad-34721908e3f0
+[2025-05-14 18:46:57.131] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get ff1ea058-655a-4fdd-9067-91beee08db74
+[2025-05-14 18:46:57.140] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/getStatus f2e94531-c7cb-4306-8bac-3ca262c0aaa1
+[2025-05-14 18:46:57.141] [info]  (UtilityProcess)       RECEIVED REQUEST FOR NAME, ID:  license/get 7c87106c-a574-4898-be6d-3c69f22e407e
+[2025-05-14 18:53:10.322] [info]  (UtilityProcess)       REMOVING STATE FOR:  c61c3413-85c0-487a-9d4a-f1ef4968d326

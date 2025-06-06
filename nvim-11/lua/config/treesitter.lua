@@ -8,6 +8,8 @@ return {
     "vimdoc",
     "javascript",
     "typescript",
+    "svelte",
+    "diff",
     "css",
     "html",
     "bash",
@@ -32,7 +34,12 @@ return {
     "go",
     "gomod",
     "gowork",
-    "gosum"
+    "gosum",
+    "http",
+    "terraform",
+    "hcl",
+    "dockerfile",
+    "docker_compose"
   },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
@@ -114,10 +121,10 @@ return {
     swap = {
       enable = true,
       swap_next = {
-        ["<leader>a"] = "@parameter.inner",
+        ["<leader>s"] = "@parameter.inner",
       },
       swap_previous = {
-        ["<leader>A"] = "@parameter.inner",
+        ["<leader>s"] = "@parameter.inner",
       },
     },
   },

@@ -13,6 +13,7 @@ application/xhtml+xml=userapp-Zen-GNMR32.desktop
 application/x-extension-xhtml=userapp-Zen-GNMR32.desktop
 application/x-extension-xht=userapp-Zen-GNMR32.desktop
 text/plain=nvim.desktop
+video/mp4=vlc.desktop
 
 [Added Associations]
 application/zip=xarchiver.desktop;
@@ -33,3 +34,4 @@ application/x-extension-xht=zen-browser.desktop;userapp-Zen-GNMR32.desktop;
 application/x-xz-compressed-tar=xarchiver.desktop;
 text/x-devicetree-source=nvim.desktop;
 text/plain=org.gnome.TextEditor.desktop;nvim.desktop;
+video/mp4=vlc.desktop;

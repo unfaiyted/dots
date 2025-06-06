@@ -1,14 +1,12 @@
 -- Neo-tree file explorer configuration
-local vim = vim
-
 return {
   "nvim-neo-tree/neo-tree.nvim",
   cmd = "Neotree",
   keys = {
-    { 
-      "<localleader>e", 
-      "<cmd>Neotree toggle float<cr>", 
-      desc = "Toggle Neo-tree Explorer" 
+    {
+      "<localleader>e",
+      "<cmd>Neotree toggle float<cr>",
+      desc = "Toggle Neo-tree Explorer"
     },
   },
   dependencies = {
