@@ -1,0 +1,99 @@
+;; defsrc is still necessary
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  tab
+  caps a s d f g h j k l ; ' return
+  lsft lctl lalt lmet spc
+)
+
+(defvar
+  tap-time 140
+  tap-dance-time 400
+  hold-time 160
+)
+
+(defalias
+
+  dir (layer-toggle directions)
+  upper (layer-toggle upper)
+  lower (layer-toggle lower)
+  symbols (layer-toggle symbols)
+  tmux (layer-toggle tmux)
+  ;; config (layer-toggler config)
+
+  escctrl (tap-hold 100 100 esc lctl)
+  
+  tab (tap-hold $tap-time $hold-time tab grv)
+  a (tap-hold $tap-time $hold-time a lmet)
+  s (tap-hold $tap-time $hold-time s lalt)
+  d (tap-hold $tap-time $hold-time d lctl)
+  f (tap-hold $tap-time $hold-time f lsft)
+  j (tap-hold $tap-time $hold-time j rsft)
+  k (tap-hold $tap-time $hold-time k rctl)
+  l (tap-hold $tap-time $hold-time l ralt)
+  ; (tap-hold $tap-time $hold-time ; rmet)
+
+  space (tap-hold $tap-time $hold-time spc @dir)
+  lmet (tap-hold $tap-time $hold-time lmet @dir)
+
+  escupper (tap-hold $tap-time $hold-time esc @upper)
+  returnlower (tap-hold $tap-time $hold-time return @lower)
+  shiftsymbols (tap-hold $tap-time $hold-time return @symbols)
+
+  ticks (tap-dance 200 (' grv))
+
+  tilde S-`
+
+  nexttab C-Tab
+  prevtab C-S-Tab
+  
+  lp S-9
+  rp S-0
+
+  lsb S-[
+  rsb S-]
+
+)
+
+(deflayer base
+  @tab
+  @escupper @a @s @d @f g h @j @k @l @; ' @returnlower
+  @shiftsymbols lctl lalt @lmet @space)
+
+(deflayer directions
+  @tab
+  @tilde @tilde @s @d @f g left down up right ; ` return
+  lsft lctl lalt lmet spc
+)
+
+(deflayer upper
+  @tab
+  @escupper @a @s @d @f g home pgdn pgup end @; @ticks return
+  lsft lctl lalt @lmet @space
+)
+
+
+
+
+(deflayer symbols
+  @tab
+  @escupper @a @s @d @f g @lsb [ ] @rsb @; @ticks return
+  lsft lctl lalt @lmet @space
+)
+
+
+(deflayer lower 
+  @tab
+  @escupper @a @nexttab @prevtab @f g [ @lp @rp ] @; @ticks return 
+  lsft lctl lalt @lmet @space
+)
+
+(deflayer tmux
+  @tab
+  @escctrl @a @s @d @f g left down up right ; ` return
+  lsft lctl lalt lmet spc
+)
+
