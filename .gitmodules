@@ -1,0 +1,7 @@
+[submodule "ags"]
+	path = ags
+	url = git@github.com:unfaiyted/faiyt-ags.git
+
+[submodule "nvim-config"]
+	path = nvim-dane
+	url = git@github.com:unfaiyted/nvim-config.git
