@@ -8,7 +8,6 @@ abrt/
 ags/
 autostart/
 bruno/
-btop/
 cava/
 chromium/
 dconf/
@@ -58,5 +57,10 @@ prisma-nodejs/
 vlc/
 Mousepad/
 nvim-11/
+
+gemini_history.json
+gpt_history.json
+sunshine/credentials/
+sunshine/sunshine.log
 
 **/.claude/settings.local.json
